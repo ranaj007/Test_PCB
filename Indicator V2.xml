@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\angus.randell\OneDrive - Bustech Pty Ltd\Reports\Indicator Problem\Indicator Diagram\Indicator V2\Indicator V2.kicad_sch</source>
+    <date>28/06/2022 12:54:32 PM</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>EHGN-5000-E</title>
+        <company>BusTech</company>
+        <rev>E</rev>
+        <date>2022-02-23</date>
+        <source>Indicator V2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Resistors V2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Test Points/" tstamps="/e95bafb4-b663-451a-a045-e586965e5b3d/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Test_Points.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Connector/" tstamps="/147c7025-afc6-4f86-81c5-9dd6da9367fb/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Connector.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/Panjit/GS1G_R1_00001?qs=sPbYRqrBIVm5sSmlICtiPA%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">GS1G_R1_00001</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="MPN" value="GS1G_R1_00001"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indicator V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c617299-cead-4def-a25e-80e6886afb80</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/Panjit/GS1G_R1_00001?qs=sPbYRqrBIVm5sSmlICtiPA%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">GS1G_R1_00001</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="MPN" value="GS1G_R1_00001"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indicator V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0aa3688b-cb8a-416a-b5a8-1b5658295892</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/Panjit/GS1G_R1_00001?qs=sPbYRqrBIVm5sSmlICtiPA%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">GS1G_R1_00001</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="MPN" value="GS1G_R1_00001"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indicator V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ddf1a43-d073-4405-ad4f-9cc4c97fd3f2</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/Panjit/GS1G_R1_00001?qs=sPbYRqrBIVm5sSmlICtiPA%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">GS1G_R1_00001</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="MPN" value="GS1G_R1_00001"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indicator V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b015a37-5d53-4e7d-a4ae-c898da13313a</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/Panjit/GS1G_R1_00001?qs=sPbYRqrBIVm5sSmlICtiPA%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">GS1G_R1_00001</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="MPN" value="GS1G_R1_00001"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indicator V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edf9ef19-9e1e-4f3b-8e33-e518d7426fa1</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>Relay_SPDT_Omron-G5LE-1</value>
+      <footprint>Relay_THT:Relay_SPDT_Omron-G5LE-1</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/Omron-Electronics/G5LE-14-36-DC24?qs=2K1uG8uKHjlXGNAH%2Fnb4xw%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">G5LE-14-36 DC24</field>
+      </fields>
+      <libsource lib="Relay" part="G5LE-1" description="Omron G5LE relay, Miniature Single Pole, SPDT, 10A"/>
+      <property name="MPN" value="G5LE-14-36 DC24"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indicator V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>050528e9-f759-4ea4-a10a-5a0f3d42b215</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k Ohm</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/Bourns/CR1206-JW-113ELF?qs=0vKJQHc%252BWYN6ZaNp39IQVg%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">CR0805-JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CR0805-JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indicator V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d381ca4-0986-43f0-ab78-2b099a8facf6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>b842e5fa-22b5-4ee9-a1dc-7a46eafd89a1</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>9ebd1daf-5884-4a1b-97c0-94a4ed68f808</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>a5bd9b1b-85ff-4610-a8e6-790e42d610d2</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>5c637e69-0156-41aa-adf2-606d3a3eac47</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>9bd0bf7a-a26b-4c3f-8370-36e3b6890583</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>0df9d4b6-d424-4d71-a55c-1de920c295df</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>bd9ba53b-2687-4b36-a4e0-3978588bf5aa</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>7517480a-e7d9-44aa-867b-bbac5926c927</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>780c0a92-c5d9-47fa-82e0-eb5bcc55a62a</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>95cff9d8-83e3-4d9e-a0b9-b65a587990a3</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>9bb1b910-8ccf-495d-bfe6-f59ea381d71e</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>365159df-23e4-4f2e-b0be-da712fd5fddb</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>48cb19c5-b701-41a6-9c80-1afb41af9279</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>92f10fd8-45fa-4cf1-834a-645689907c94</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>e084ca56-2e71-44f0-b250-a049c2dbb1c7</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>9e59c027-4aac-4650-9440-0ae51504baab</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>7b615158-ae8f-4c60-9a20-216822969b42</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>b8bcddd9-0a4c-484f-a63c-bd7c63664557</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>25f23f86-ec4f-4616-8525-0cb2cc3a0e36</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>70d2ceb2-9a72-4801-ad9b-5286a0692951</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>524b49e3-48df-4689-b5fa-e645615865c6</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>eefe3dfa-915c-4d8a-b5e6-f45c57c9c5b5</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>a535654f-aea5-43c9-9ab8-783ef20dcacc</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_thermal_pad</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/YAGEO/RC2512JK-0739RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xAQDgUBGnyVw%3D</datasheet>
+      <fields>
+        <field name="MPN">CRGP2512F15R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRGP2512F15R"/>
+      <property name="Sheetname" value="Resistors"/>
+      <property name="Sheetfile" value="Resistors V2.kicad_sch"/>
+      <sheetpath names="/Resistors/" tstamps="/602aa17b-c114-4a70-9466-31187d613c45/"/>
+      <tstamps>34b67323-2dd5-4d95-9770-4806bc178c12</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>ATM13-12PA-R008</value>
+      <footprint>Library:ATM1312PAR008</footprint>
+      <datasheet>https://au.mouser.com/ProductDetail/Amphenol-SINE-Systems/ATM13-12PA-R008?qs=sGAEpiMZZMv0NwlthflBi2qiZjjoRrlx4x%252ByD39Q6N8%3D</datasheet>
+      <fields>
+        <field name="MPN">ATM13-12PA-R008</field>
+      </fields>
+      <libsource lib="New_Library" part="ATM13-12PA-R008" description="Automotive Connectors 1x12 SZ 20 A Key Tin Header Thermoplastic"/>
+      <property name="MPN" value="ATM13-12PA-R008"/>
+      <property name="Sheetname" value="Connector"/>
+      <property name="Sheetfile" value="Connector.kicad_sch"/>
+      <sheetpath names="/Connector/" tstamps="/147c7025-afc6-4f86-81c5-9dd6da9367fb/"/>
+      <tstamps>904345c5-3236-4d38-a1e0-0405ab297684</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4001">
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="New_Library" part="ATM13-12PA-R008">
+      <description>Automotive Connectors 1x12 SZ 20 A Key Tin Header Thermoplastic</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/ATM13-12PA-R008.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ATM13-12PA-R008</field>
+        <field name="Footprint">Library:ATM1312PAR008</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/ATM13-12PA-R008.pdf</field>
+        <field name="Description">Automotive Connectors 1x12 SZ 20 A Key Tin Header Thermoplastic</field>
+        <field name="Height">35.4</field>
+        <field name="Mouser Part Number">654-ATM13-12PA-R008</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Amphenol-SINE-Systems/ATM13-12PA-R008?qs=PzGy0jfpSMsB3N0uS7ecwA%3D%3D</field>
+        <field name="Manufacturer_Name">Amphenol</field>
+        <field name="Manufacturer_Part_Number">ATM13-12PA-R008</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="MH1" name="MH1" type="passive"/>
+        <pin num="MH2" name="MH2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="G5LE-1">
+      <description>Omron G5LE relay, Miniature Single Pole, SPDT, 10A</description>
+      <docs>http://www.omron.com/ecb/products/pdf/en-g5le.pdf</docs>
+      <footprints>
+        <fp>Relay*SPDT*Omron*G5LE?1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G5LE-1</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_Omron-G5LE-1</field>
+        <field name="Datasheet">http://www.omron.com/ecb/products/pdf/en-g5le.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="New_Library">
+      <uri>//FH-DC.fh.local/User Data$/angus.randell/My Documents/KiCad/6.0/symbols/New_Library.kicad_sym</uri>
+    </library>
+    <library logical="Relay">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Relay.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="C689{slash}1">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="2" name="C689{slash}10">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="3" name="C695{slash}1">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="4" name="C695{slash}7">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="K1" pin="4" pintype="passive"/>
+      <node ref="K1" pin="5" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad11)">
+      <node ref="J1" pin="11" pinfunction="11" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad12)">
+      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Node1 A7">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="K1" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Node1 B2">
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="R1 In">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="R1 Out">
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="R2 In">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="R2 Out">
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="R3 In">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="R3 Out">
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="R4 In">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="R4 Out">
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Resistor Out">
+      <node ref="K1" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="unconnected-(J1-PadMH1)">
+      <node ref="J1" pin="MH1" pinfunction="MH1" pintype="passive"/>
+    </net>
+    <net code="43" name="unconnected-(J1-PadMH2)">
+      <node ref="J1" pin="MH2" pinfunction="MH2" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(K1-Pad3)">
+      <node ref="K1" pin="3" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

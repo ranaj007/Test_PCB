@@ -1,0 +1,31 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+D1,DIODE,D_SMA,171.33333,-75,90,top
+D2,DIODE,D_SMA,156.916664,-75,90,top
+D3,DIODE,D_SMA,128.083332,-75,90,top
+D4,DIODE,D_SMA,113.666666,-75,90,top
+D5,DIODE,D_SMA,142.5,-78.75,0,top
+R1,39 Ohm,R_2512_6332Metric_thermal_pad,156.916664,-84.25,90,top
+R2,39 Ohm,R_2512_6332Metric_thermal_pad,156.916664,-96.793099,90,top
+R4,10k Ohm,R_1206_3216Metric,166.5,-70.25,0,top
+R6,39 Ohm,R_2512_6332Metric_thermal_pad,171.33333,-109.336198,90,top
+R7,39 Ohm,R_2512_6332Metric_thermal_pad,171.33333,-121.879297,90,top
+R8,39 Ohm,R_2512_6332Metric_thermal_pad,171.33333,-134.422396,90,top
+R9,39 Ohm,R_2512_6332Metric_thermal_pad,171.33333,-146.965498,90,top
+R10,39 Ohm,R_2512_6332Metric_thermal_pad,171.33333,-84.25,90,top
+R11,39 Ohm,R_2512_6332Metric_thermal_pad,128.083332,-85,90,top
+R12,39 Ohm,R_2512_6332Metric_thermal_pad,113.666666,-85,90,top
+R13,39 Ohm,R_2512_6332Metric_thermal_pad,171.33333,-96.793099,90,top
+R14,39 Ohm,R_2512_6332Metric_thermal_pad,128.083332,-97.393099,90,top
+R15,39 Ohm,R_2512_6332Metric_thermal_pad,113.666666,-97.393099,90,top
+R17,39 Ohm,R_2512_6332Metric_thermal_pad,156.916664,-109.336198,90,top
+R18,39 Ohm,R_2512_6332Metric_thermal_pad,128.083332,-109.786198,90,top
+R19,39 Ohm,R_2512_6332Metric_thermal_pad,113.666666,-109.786198,90,top
+R20,39 Ohm,R_2512_6332Metric_thermal_pad,156.916664,-121.879297,90,top
+R21,39 Ohm,R_2512_6332Metric_thermal_pad,128.083332,-122.179297,90,top
+R22,39 Ohm,R_2512_6332Metric_thermal_pad,113.666666,-122.179297,90,top
+R23,39 Ohm,R_2512_6332Metric_thermal_pad,156.916664,-134.422396,90,top
+R24,39 Ohm,R_2512_6332Metric_thermal_pad,128.083332,-134.572396,90,top
+R25,39 Ohm,R_2512_6332Metric_thermal_pad,113.666666,-134.572396,90,top
+R26,39 Ohm,R_2512_6332Metric_thermal_pad,156.9,-147,90,top
+R27,39 Ohm,R_2512_6332Metric_thermal_pad,128.083332,-146.965498,90,top
+R28,39 Ohm,R_2512_6332Metric_thermal_pad,113.666666,-146.965498,90,top
