@@ -1,715 +1,691 @@
 VERSION ""
 
 
-NS_ : 
-	NS_DESC_
-	CM_
-	BA_DEF_
-	BA_
-	VAL_
-	CAT_DEF_
-	CAT_
-	FILTER
-	BA_DEF_DEF_
-	EV_DATA_
-	ENVVAR_DATA_
-	SGTYPE_
-	SGTYPE_VAL_
-	BA_DEF_SGTYPE_
-	BA_SGTYPE_
-	SIG_TYPE_REF_
-	VAL_TABLE_
-	SIG_GROUP_
-	SIG_VALTYPE_
-	SIGTYPE_VALTYPE_
-	BO_TX_BU_
-	BA_DEF_REL_
-	BA_REL_
-	BA_DEF_DEF_REL_
-	BU_SG_REL_
-	BU_EV_REL_
-	BU_BO_REL_
-	SG_MUL_VAL_
+NS_ :
+  CM_
+  BA_DEF_
+  BA_
+  VAL_
+  BA_DEF_DEF_
+  SIG_VALTYPE_
 
 BS_:
 
-BU_:
+BU_: Vector__XXX
 
 
-BO_ 2365524759 FF0B: 8 Vector__XXX
- SG_ LightCheckSwitch : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ D1DemistSwitch : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ SchoolFlashSwitch : 6|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ BellCancelSwitch : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MapLightSwitch : 10|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ CabLightSwitch : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ D1Switch : 14|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ D2Switch : 12|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ Switch_2S_10 : 18|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ Switch_2S_11 : 20|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ Switch_2S_12 : 22|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ Switch_2S_13 : 24|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ Switch_2S_14 : 56|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ Switch_2S_15 : 48|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ Switch_2S_16 : 40|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ Switch_2S_17 : 32|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ECASSwitch : 34|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ DemistFanSwitch : 37|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ DriverFanSwitch : 42|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ SaloonLightSwitch : 45|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ RTRH_Switch : 29|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ DemistTempSwitch : 26|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Switch_3S_7 : 50|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Switch_3S_8 : 53|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Switch_3S_9 : 58|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Switch_3S_10 : 61|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Switch_2S_9 : 16|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2365524759 FF0B: 8 ThorebNode
+SG_ LightCheckSwitch : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ D1DemistSwitch : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ SchoolFlashSwitch : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ BellCancelSwitch : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MapLightSwitch : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ CabLightSwitch : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ D1Switch : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ D2Switch : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ Switch_2S_10 : 18|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ Switch_2S_11 : 20|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ Switch_2S_12 : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ Switch_2S_13 : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ Switch_2S_14 : 56|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ Switch_2S_15 : 48|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ Switch_2S_16 : 40|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ Switch_2S_17 : 32|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ECASSwitch : 34|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ DemistFanSwitch : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ DriverFanSwitch : 42|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ SaloonLightSwitch : 45|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ RTRH_Switch : 29|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ DemistTempSwitch : 26|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Switch_3S_7 : 50|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Switch_3S_8 : 53|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Switch_3S_9 : 58|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Switch_3S_10 : 61|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Switch_2S_9 : 16|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2365524513 FF0A: 8 Vector__XXX
- SG_ BrakeFault : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ StopLight : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ SchoolLight : 6|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ DoorOverrideActive : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ NextStop : 10|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ DebugControl : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RampNextStop : 12|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ Door1Entrapment : 14|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ DoorFault : 16|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ Door2Entrapment : 18|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ExitHammer : 20|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ BrakeWear : 22|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ DriverGate : 24|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ChargerDoor : 26|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineDoor : 28|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ SystemStart : 30|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2365524513 FF0A: 8 ThorebNode
+SG_ BrakeFault : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ StopLight : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ SchoolLight : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ DoorOverrideActive : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ NextStop : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ DebugControl : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RampNextStop : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ Door1Entrapment : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ DoorFault : 16|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ Door2Entrapment : 18|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ExitHammer : 20|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ BrakeWear : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ DriverGate : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ChargerDoor : 26|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineDoor : 28|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ SystemStart : 30|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2355220689 EVCU1: 8 Vector__XXX
- SG_ ActualdirectionmodeAVESyst : 0|2@1+ (1,0) [0|2] "" Vector__XXX
- SG_ ActualDrivemode : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ WheelSlippagedetection : 4|4@1+ (1,0) [0|3] "sts" Vector__XXX
- SG_ Averagemotorspeed : 8|16@1+ (1,0) [0|15000] "rpm" Vector__XXX
- SG_ ActualtorqueAVESystem : 24|12@1+ (1,0) [0|3200] "Nm" Vector__XXX
- SG_ AVESystemReady : 36|1@1+ (1,0) [0|1] "b" Vector__XXX
- SG_ AVESystemReducedOperational : 37|1@1+ (1,0) [0|1] "b" Vector__XXX
- SG_ ElectricalBrakeTorqueLow : 38|1@1+ (1,0) [0|1] "b" Vector__XXX
- SG_ CreeperStopping : 39|1@1+ (1,0) [0|1] "b" Vector__XXX
- SG_ CreeperNotAvailable : 40|1@1+ (1,0) [0|1] "b" Vector__XXX
- SG_ TUpAStopping : 41|1@1+ (1,0) [0|1] "b" Vector__XXX
- SG_ TUpANotAvailable : 42|1@1+ (1,0) [0|1] "b" Vector__XXX
- SG_ RecuperationHighStatus : 43|1@1+ (1,0) [0|1] "b" Vector__XXX
- SG_ Reserved4 : 44|1@1+ (1,0) [0|1] "b" Vector__XXX
- SG_ Reserved57 : 45|3@1+ (1,0) [0|1] "b" Vector__XXX
- SG_ EMotorOverspeed : 48|2@1+ (1,0) [0|3] "b" Vector__XXX
- SG_ EVECU1MSGCounter : 52|4@1+ (1,0) [0|15] "cnt" Vector__XXX
- SG_ EVEC1MSGCRC : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+BO_ 2355220689 EVCU1: 8 ThorebNode
+SG_ ActualdirectionmodeAVESyst : 0|2@1+ (1,0) [0|2] "" Vector__XXX
+SG_ ActualDrivemode : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ WheelSlippagedetection : 4|4@1+ (1,0) [0|3] "sts" Vector__XXX
+SG_ Averagemotorspeed : 8|16@1+ (1,0) [0|15000] "rpm" Vector__XXX
+SG_ ActualtorqueAVESystem : 24|12@1+ (1,0) [0|3200] "Nm" Vector__XXX
+SG_ AVESystemReady : 36|1@1+ (1,0) [0|1] "b" Vector__XXX
+SG_ AVESystemReducedOperational : 37|1@1+ (1,0) [0|1] "b" Vector__XXX
+SG_ ElectricalBrakeTorqueLow : 38|1@1+ (1,0) [0|1] "b" Vector__XXX
+SG_ CreeperStopping : 39|1@1+ (1,0) [0|1] "b" Vector__XXX
+SG_ CreeperNotAvailable : 40|1@1+ (1,0) [0|1] "b" Vector__XXX
+SG_ TUpAStopping : 41|1@1+ (1,0) [0|1] "b" Vector__XXX
+SG_ TUpANotAvailable : 42|1@1+ (1,0) [0|1] "b" Vector__XXX
+SG_ RecuperationHighStatus : 43|1@1+ (1,0) [0|1] "b" Vector__XXX
+SG_ Reserved4 : 44|1@1+ (1,0) [0|1] "b" Vector__XXX
+SG_ Reserved57 : 45|3@1+ (1,0) [0|1] "b" Vector__XXX
+SG_ EMotorOverspeed : 48|2@1+ (1,0) [0|3] "b" Vector__XXX
+SG_ EVECU1MSGCounter : 52|4@1+ (1,0) [0|15] "cnt" Vector__XXX
+SG_ EVEC1MSGCRC : 56|8@1+ (1,0) [0|255] "" Vector__XXX
 
-BO_ 2355351761 EVCU3: 4 Vector__XXX
- SG_ TemperatureEMotor1 : 0|8@1+ (1,-40) [-40|213] "°C" Vector__XXX
- SG_ TemperatureInverter1 : 8|8@1+ (1,-40) [-40|213] "°C" Vector__XXX
- SG_ TemperatureEMotor2 : 16|8@1+ (1,-40) [-40|213] "°C" Vector__XXX
- SG_ TemperatureInverter2 : 24|8@1+ (1,-40) [-40|213] "°C" Vector__XXX
+BO_ 2355351761 EVCU3: 4 ThorebNode
+SG_ TemperatureEMotor1 : 0|8@1+ (1,-40) [-40|213] "°C" Vector__XXX
+SG_ TemperatureInverter1 : 8|8@1+ (1,-40) [-40|213] "°C" Vector__XXX
+SG_ TemperatureEMotor2 : 16|8@1+ (1,-40) [-40|213] "°C" Vector__XXX
+SG_ TemperatureInverter2 : 24|8@1+ (1,-40) [-40|213] "°C" Vector__XXX
 
-BO_ 2566759713 DC2: 8 Vector__XXX
- SG_ LockStatusOfDoor1 : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OpenStatusOfDoor1 : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EnableStatusOfDoor1 : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LockStatusOfDoor2 : 6|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OpenStatusOfDoor2 : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EnableStatusOfDoor2 : 10|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LockStatusOfDoor3 : 12|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OpenStatusOfDoor3 : 14|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EnableStatusOfDoor3 : 16|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LockStatusOfDoor4 : 18|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OpenStatusOfDoor4 : 20|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EnableStatusOfDoor4 : 22|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LockStatusOfDoor5 : 24|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OpenStatusOfDoor5 : 26|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EnableStatusOfDoor5 : 28|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LockStatusOfDoor6 : 30|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OpenStatusOfDoor6 : 32|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EnableStatusOfDoor6 : 34|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LockStatusOfDoor7 : 36|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OpenStatusOfDoor7 : 38|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EnableStatusOfDoor7 : 40|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LockStatusOfDoor8 : 42|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OpenStatusOfDoor8 : 44|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EnableStatusOfDoor8 : 46|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LockStatusOfDoor9 : 48|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OpenStatusOfDoor9 : 50|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EnableStatusOfDoor9 : 52|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LockStatusOfDoor10 : 54|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OpenStatusOfDoor10 : 56|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EnableStatusOfDoor10 : 58|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2566759713 DC2: 8 ThorebNode
+SG_ LockStatusOfDoor1 : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OpenStatusOfDoor1 : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EnableStatusOfDoor1 : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LockStatusOfDoor2 : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OpenStatusOfDoor2 : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EnableStatusOfDoor2 : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LockStatusOfDoor3 : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OpenStatusOfDoor3 : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EnableStatusOfDoor3 : 16|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LockStatusOfDoor4 : 18|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OpenStatusOfDoor4 : 20|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EnableStatusOfDoor4 : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LockStatusOfDoor5 : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OpenStatusOfDoor5 : 26|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EnableStatusOfDoor5 : 28|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LockStatusOfDoor6 : 30|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OpenStatusOfDoor6 : 32|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EnableStatusOfDoor6 : 34|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LockStatusOfDoor7 : 36|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OpenStatusOfDoor7 : 38|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EnableStatusOfDoor7 : 40|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LockStatusOfDoor8 : 42|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OpenStatusOfDoor8 : 44|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EnableStatusOfDoor8 : 46|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LockStatusOfDoor9 : 48|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OpenStatusOfDoor9 : 50|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EnableStatusOfDoor9 : 52|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LockStatusOfDoor10 : 54|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OpenStatusOfDoor10 : 56|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EnableStatusOfDoor10 : 58|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2566802977 DC1: 8 Vector__XXX
- SG_ PositionOfDoors : 0|4@1+ (1,0) [0|15] "" Vector__XXX
- SG_ RampWheelChairLiftPosition : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ Status2OfDoors : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2566802977 DC1: 8 ThorebNode
+SG_ PositionOfDoors : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+SG_ RampWheelChairLiftPosition : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ Status2OfDoors : 6|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2350644759 HVESSC1: 8 Vector__XXX
- SG_ HVES1HighVoltageBusConnectCmd : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1PowerDownCommand : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1HghVltgBusActIsolatnTestCmd : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1HiVltgBusPassIsolatnTestCmd : 6|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1CellBalancingCommand : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1EnableInternalChrgrCommand : 10|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1OperationConsent : 12|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1HiVltgBusHiSdeResistCnnctRq : 14|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1HiVltgBusLoSdeResistCnnctRq : 16|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVESSThermalMangmntMaintenRq : 18|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVESSControl1Counter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
- SG_ HVESSControl1CRC : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+BO_ 2350644759 HVESSC1: 8 ThorebNode
+SG_ HVES1HighVoltageBusConnectCmd : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1PowerDownCommand : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1HghVltgBusActIsolatnTestCmd : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1HiVltgBusPassIsolatnTestCmd : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1CellBalancingCommand : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1EnableInternalChrgrCommand : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1OperationConsent : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1HiVltgBusHiSdeResistCnnctRq : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1HiVltgBusLoSdeResistCnnctRq : 16|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVESSThermalMangmntMaintenRq : 18|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVESSControl1Counter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+SG_ HVESSControl1CRC : 56|8@1+ (1,0) [0|255] "" Vector__XXX
 
-BO_ 2565865739 EBC1: 8 Vector__XXX
- SG_ ASREngineControlActive : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ASRBrakeControlActive : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ AntiLockBrakingActive : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EBSBrakeSwitch : 6|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ BrakePedalPosition : 8|8@1+ (0.4,0) [0|100] "%" Vector__XXX
- SG_ ABSOffRoadSwitch : 16|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ASROffRoadSwitch : 18|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ASRHillHolderSwitch : 20|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractionControlOverrideSwitch : 22|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ AcceleratorInterlockSwitch : 24|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineDerateSwitch : 26|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineAuxiliaryShutdownSwitch : 28|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RemoteAcceleratorEnableSwitch : 30|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineRetarderSelection : 32|8@1+ (0.4,0) [0|100] "%" Vector__XXX
- SG_ ABSFullyOperational : 40|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EBSRedWarningSignal : 42|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ABSEBSAmberWarningSignal : 44|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ATCASRInformationSignal : 46|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ SrcAddrOfCtrllingDevForBrkCtrl : 48|8@1+ (1,0) [0|255] "" Vector__XXX
- SG_ RailroadModeSwitch : 56|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HaltBrakeSwitch : 58|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TrailerABSStatus : 60|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorMntdTrailerABSWarningSig : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2565865739 EBC1: 8 ThorebNode
+SG_ ASREngineControlActive : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ASRBrakeControlActive : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ AntiLockBrakingActive : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EBSBrakeSwitch : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ BrakePedalPosition : 8|8@1+ (0.4,0) [0|100] "%" Vector__XXX
+SG_ ABSOffRoadSwitch : 16|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ASROffRoadSwitch : 18|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ASRHillHolderSwitch : 20|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractionControlOverrideSwitch : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ AcceleratorInterlockSwitch : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineDerateSwitch : 26|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineAuxiliaryShutdownSwitch : 28|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RemoteAcceleratorEnableSwitch : 30|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineRetarderSelection : 32|8@1+ (0.4,0) [0|100] "%" Vector__XXX
+SG_ ABSFullyOperational : 40|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EBSRedWarningSignal : 42|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ABSEBSAmberWarningSignal : 44|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ATCASRInformationSignal : 46|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ SrcAddrOfCtrllingDevForBrkCtrl : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+SG_ RailroadModeSwitch : 56|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HaltBrakeSwitch : 58|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TrailerABSStatus : 60|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorMntdTrailerABSWarningSig : 62|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2364575777 HVESSD1: 8 Vector__XXX
- SG_ HVES1AvailableDischargePower : 0|16@1+ (0.05,0) [0|3212.75] "kW" Vector__XXX
- SG_ HVES1AvailableChargePower : 16|16@1+ (0.05,0) [0|3212.75] "kW" Vector__XXX
- SG_ HVES1VoltageLevel : 32|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
- SG_ HVES1Current : 48|16@1+ (0.05,-1600) [-1600|1612.75] "A" Vector__XXX
+BO_ 2364575777 HVESSD1: 8 ThorebNode
+SG_ HVES1AvailableDischargePower : 0|16@1+ (0.05,0) [0|3212.75] "kW" Vector__XXX
+SG_ HVES1AvailableChargePower : 16|16@1+ (0.05,0) [0|3212.75] "kW" Vector__XXX
+SG_ HVES1VoltageLevel : 32|16@1+ (0.05,0) [0|3212.75] "V" Vector__XXX
+SG_ HVES1Current : 48|16@1+ (0.05,-1600) [-1600|1612.75] "A" Vector__XXX
 
-BO_ 2364576033 HVESSD2: 8 Vector__XXX
- SG_ HVES1FastUpdateStateOfCharge : 0|16@1+ (0.0015625,0) [0|100.3984375] "%" Vector__XXX
- SG_ HVES1HighestCellVoltage : 16|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
- SG_ HVES1LowestCellVoltage : 32|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
- SG_ HVES1CellVoltageDiffStatus : 48|4@1+ (1,0) [0|15] "" Vector__XXX
+BO_ 2364576033 HVESSD2: 8 ThorebNode
+SG_ HVES1FastUpdateStateOfCharge : 0|16@1+ (0.0015625,0) [0|100.3984375] "%" Vector__XXX
+SG_ HVES1HighestCellVoltage : 16|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+SG_ HVES1LowestCellVoltage : 32|16@1+ (0.001,0) [0|64.255] "V" Vector__XXX
+SG_ HVES1CellVoltageDiffStatus : 48|4@1+ (1,0) [0|15] "" Vector__XXX
 
-BO_ 2566545953 LD2: 8 Vector__XXX
- SG_ TractorHazardLights : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2566545953 LD2: 8 ThorebNode
+SG_ TractorHazardLights : 0|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2365219607 LCMD2: 8 Vector__XXX
- SG_ LightingData2RequestCommand : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorHazardLightsCommand : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2365219607 LCMD2: 8 ThorebNode
+SG_ LightingData2RequestCommand : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorHazardLightsCommand : 2|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2499547671 CDC1: 8 Vector__XXX
- SG_ CabDoorsLockActuationCommand : 0|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ RemoteCabDoorLockRequest : 8|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ LeftFrontWindowPositionCommand : 16|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ RightFrontWindowPositionCommand : 19|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ MirrorFoldingSwitch : 22|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LeftRearWindowPositionCommand : 24|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ RightRearWindowPositionCommand : 27|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ MirrorAutoPanningEnable : 30|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MirrorLeft1HorizontalCommand : 32|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MirrorLeft1VerticalCommand : 34|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MirrorRight1HorizontalCommand : 36|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MirrorRight1VerticalCommand : 38|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MirrorLeft2HorizontalCommand : 40|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MirrorLeft2VerticalCommand : 42|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MirrorRight2HorizontalCommand : 44|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MirrorRight2VerticalCommand : 46|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MirrorLeft1HeatCommand : 48|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MirrorRight1HeatCommand : 50|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MirrorLeft2HeatCommand : 52|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MirrorRight2HeatCommand : 54|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2499547671 CDC1: 8 ThorebNode
+SG_ CabDoorsLockActuationCommand : 0|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ RemoteCabDoorLockRequest : 8|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ LeftFrontWindowPositionCommand : 16|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ RightFrontWindowPositionCommand : 19|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ MirrorFoldingSwitch : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LeftRearWindowPositionCommand : 24|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ RightRearWindowPositionCommand : 27|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ MirrorAutoPanningEnable : 30|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MirrorLeft1HorizontalCommand : 32|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MirrorLeft1VerticalCommand : 34|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MirrorRight1HorizontalCommand : 36|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MirrorRight1VerticalCommand : 38|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MirrorLeft2HorizontalCommand : 40|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MirrorLeft2VerticalCommand : 42|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MirrorRight2HorizontalCommand : 44|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MirrorRight2VerticalCommand : 46|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MirrorLeft1HeatCommand : 48|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MirrorRight1HeatCommand : 50|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MirrorLeft2HeatCommand : 52|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MirrorRight2HeatCommand : 54|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2566771745 CM3: 8 Vector__XXX
- SG_ TransferCaseSelectorSwitch : 0|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ AfttreatmentSCRDosingModeCommand : 3|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ MomentaryOperatorKeySwitch : 6|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FifthWheelReleaseControl : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FifthWhlReleaseCtrlSecurityLckt : 10|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ VehicleTrailerStatus : 12|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OperatorKeyDetected : 14|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TransmissionOilLevelRequest : 16|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OperatorKeySwitchAccessoryPower : 18|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OperatorKeySwitchIgnitionPower : 20|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OperatorKeySwitchStart : 22|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OprtrKeySwitchDelayedBattryOff : 24|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HornSwitch : 26|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineAirShutoffTestSwitch : 28|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineAirShutoffManualSwitch : 30|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OperatorKeySwitchService : 32|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OperatorKeySwitchOff : 34|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RemoteKeyFobFunctionRequested : 40|5@1+ (1,0) [0|31] "" Vector__XXX
+BO_ 2566771745 CM3: 8 ThorebNode
+SG_ TransferCaseSelectorSwitch : 0|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ AfttreatmentSCRDosingModeCommand : 3|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ MomentaryOperatorKeySwitch : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FifthWheelReleaseControl : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FifthWhlReleaseCtrlSecurityLckt : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ VehicleTrailerStatus : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OperatorKeyDetected : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TransmissionOilLevelRequest : 16|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OperatorKeySwitchAccessoryPower : 18|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OperatorKeySwitchIgnitionPower : 20|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OperatorKeySwitchStart : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OprtrKeySwitchDelayedBattryOff : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HornSwitch : 26|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineAirShutoffTestSwitch : 28|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineAirShutoffManualSwitch : 30|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OperatorKeySwitchService : 32|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OperatorKeySwitchOff : 34|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RemoteKeyFobFunctionRequested : 40|5@1+ (1,0) [0|31] "" Vector__XXX
 
-BO_ 2566799393 LD: 8 Vector__XXX
- SG_ RunningLight : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ AlternateBeamHeadLightData : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LowBeamHeadLightData : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HighBeamHeadLightData : 6|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorFrontFogLights : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RotatingBeaconLight : 10|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RightTurnSignalLights : 12|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LeftTurnSignalLights : 14|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ BackUpLightAndAlarmHorn : 16|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ CenterStopLight : 18|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RightStopLight : 20|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LeftStopLight : 22|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementClearanceLight : 24|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorClearanceLight : 26|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementMarkerLight : 28|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorMarkerLight : 30|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RearFogLights : 32|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorUndersideMntdWorkLights : 34|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorRearLowMountedWorkLights : 36|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorRearHighMountedWorkLights : 38|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorSideLowMountedWorkLights : 40|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorSideHighMountedWorkLights : 42|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorFrontLowMountedWorkLights : 44|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorFrntHighMountedWorkLights : 46|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementOEMOption2Light : 48|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementOEMOption1Light : 50|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementRightFacingWorkLight : 52|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementLeftForwardWorkLight : 54|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementRightForwardWorkLight : 58|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementLeftFacingWorkLight : 60|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementRearWorkLight : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2566799393 LD: 8 ThorebNode
+SG_ RunningLight : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ AlternateBeamHeadLightData : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LowBeamHeadLightData : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HighBeamHeadLightData : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorFrontFogLights : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RotatingBeaconLight : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RightTurnSignalLights : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LeftTurnSignalLights : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ BackUpLightAndAlarmHorn : 16|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ CenterStopLight : 18|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RightStopLight : 20|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LeftStopLight : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementClearanceLight : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorClearanceLight : 26|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementMarkerLight : 28|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorMarkerLight : 30|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RearFogLights : 32|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorUndersideMntdWorkLights : 34|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorRearLowMountedWorkLights : 36|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorRearHighMountedWorkLights : 38|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorSideLowMountedWorkLights : 40|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorSideHighMountedWorkLights : 42|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorFrontLowMountedWorkLights : 44|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorFrntHighMountedWorkLights : 46|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementOEMOption2Light : 48|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementOEMOption1Light : 50|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementRightFacingWorkLight : 52|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementLeftForwardWorkLight : 54|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementRightForwardWorkLight : 58|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementLeftFacingWorkLight : 60|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementRearWorkLight : 62|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2365473047 LCMD: 8 Vector__XXX
- SG_ RunningLightCommand : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ AlternateBeamHeadLightCommand : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LowBeamHeadLightCommand : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HighBeamHeadLightCommand : 6|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorFrontFogLightsCommand : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RotatingBeaconLightCommand : 10|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RightTurnSignalLightsCommand : 12|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LeftTurnSignalLightsCommand : 14|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ BackUpLightAndAlarmHornCommand : 16|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ CenterStopLightCommand : 18|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RightStopLightCommand : 20|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LeftStopLightCommand : 22|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementClearanceLightCommand : 24|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorClearanceLightCommand : 26|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementMarkerLightCommand : 28|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorMarkerLightCommand : 30|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RearFogLightCommand : 32|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorUnderSdeMntdWorkLightsCmd : 34|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorRearLowMntdWorkLightsCmd : 36|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorRearHghMntdWorkLightsCmd : 38|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorSideLowMntdWorkLightsCmd : 40|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorSideHghMntdWorkLightsCmd : 42|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorFrntLowMntdWorkLightsCmd : 44|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TractorFrntHghMntdWorkLightsCmd : 46|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementOEMOption2LightCommand : 48|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementOEMOption1LightCommand : 50|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementRightFacingWorkLightCmd : 52|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementLeftForwardWorkLightCmd : 54|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LightingDataRequestCommand : 56|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementRightFrwdWorkLightCmd : 58|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementLeftFacingWorkLightCmd : 60|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ImplementRearWorkLightCommand : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2365473047 LCMD: 8 ThorebNode
+SG_ RunningLightCommand : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ AlternateBeamHeadLightCommand : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LowBeamHeadLightCommand : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HighBeamHeadLightCommand : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorFrontFogLightsCommand : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RotatingBeaconLightCommand : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RightTurnSignalLightsCommand : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LeftTurnSignalLightsCommand : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ BackUpLightAndAlarmHornCommand : 16|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ CenterStopLightCommand : 18|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RightStopLightCommand : 20|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LeftStopLightCommand : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementClearanceLightCommand : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorClearanceLightCommand : 26|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementMarkerLightCommand : 28|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorMarkerLightCommand : 30|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RearFogLightCommand : 32|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorUnderSdeMntdWorkLightsCmd : 34|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorRearLowMntdWorkLightsCmd : 36|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorRearHghMntdWorkLightsCmd : 38|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorSideLowMntdWorkLightsCmd : 40|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorSideHghMntdWorkLightsCmd : 42|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorFrntLowMntdWorkLightsCmd : 44|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TractorFrntHghMntdWorkLightsCmd : 46|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementOEMOption2LightCommand : 48|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementOEMOption1LightCommand : 50|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementRightFacingWorkLightCmd : 52|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementLeftForwardWorkLightCmd : 54|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LightingDataRequestCommand : 56|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementRightFrwdWorkLightCmd : 58|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementLeftFacingWorkLightCmd : 60|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ImplementRearWorkLightCommand : 62|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2566827553 AIR1: 8 Vector__XXX
- SG_ PneumaticSupplyPressure : 0|8@1+ (8,0) [0|2000] "kPa" Vector__XXX
- SG_ ParkingAndOrTrailerAirPressure : 8|8@1+ (8,0) [0|2000] "kPa" Vector__XXX
- SG_ ServiceBrakeCircuit1AirPressure : 16|8@1+ (8,0) [0|2000] "kPa" Vector__XXX
- SG_ ServiceBrakeCircuit2AirPressure : 24|8@1+ (8,0) [0|2000] "kPa" Vector__XXX
- SG_ AuxiliaryEquipmentSupplyPressure : 32|8@1+ (8,0) [0|2000] "kPa" Vector__XXX
- SG_ AirSuspensionSupplyPressure : 40|8@1+ (8,0) [0|2000] "kPa" Vector__XXX
- SG_ AirCompressorStatus : 48|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ PwrtrainCircuitAirSupplyPressure : 56|8@1+ (8,0) [0|2000] "kPa" Vector__XXX
+BO_ 2566827553 AIR1: 8 ThorebNode
+SG_ PneumaticSupplyPressure : 0|8@1+ (8,0) [0|2000] "kPa" Vector__XXX
+SG_ ParkingAndOrTrailerAirPressure : 8|8@1+ (8,0) [0|2000] "kPa" Vector__XXX
+SG_ ServiceBrakeCircuit1AirPressure : 16|8@1+ (8,0) [0|2000] "kPa" Vector__XXX
+SG_ ServiceBrakeCircuit2AirPressure : 24|8@1+ (8,0) [0|2000] "kPa" Vector__XXX
+SG_ AuxiliaryEquipmentSupplyPressure : 32|8@1+ (8,0) [0|2000] "kPa" Vector__XXX
+SG_ AirSuspensionSupplyPressure : 40|8@1+ (8,0) [0|2000] "kPa" Vector__XXX
+SG_ AirCompressorStatus : 48|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ PwrtrainCircuitAirSupplyPressure : 56|8@1+ (8,0) [0|2000] "kPa" Vector__XXX
 
-BO_ 2566844705 CCVS1: 8 Vector__XXX
- SG_ TwoSpeedAxleSwitch : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ParkingBrakeSwitch : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ CruiseControlPauseSwitch : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ParkBrakeReleaseInhibitRequest : 6|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ WheelBasedVehicleSpeed : 8|16@1+ (0.00390625,0) [0|250.99609375] "km/h" Vector__XXX
- SG_ CruiseControlActive : 24|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ CruiseControlEnableSwitch : 26|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ BrakeSwitch : 28|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ClutchSwitch : 30|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ CruiseControlSetSwitch : 32|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ CruiseControlCoastSwitch : 34|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ CruiseControlResumeSwitch : 36|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ CruiseControlAccelerateSwitch : 38|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ CruiseControlSetSpeed : 40|8@1+ (1,0) [0|250] "km/h" Vector__XXX
- SG_ PTOGovernorState : 48|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ CruiseControlStates : 53|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ EngineIdleIncrementSwitch : 56|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineIdleDecrementSwitch : 58|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineDiagnosticTestModeSwitch : 60|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineShutdownOverrideSwitch : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2566844705 CCVS1: 8 ThorebNode
+SG_ TwoSpeedAxleSwitch : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ParkingBrakeSwitch : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ CruiseControlPauseSwitch : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ParkBrakeReleaseInhibitRequest : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ WheelBasedVehicleSpeed : 8|16@1+ (0.00390625,0) [0|250.99609375] "km/h" Vector__XXX
+SG_ CruiseControlActive : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ CruiseControlEnableSwitch : 26|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ BrakeSwitch : 28|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ClutchSwitch : 30|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ CruiseControlSetSwitch : 32|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ CruiseControlCoastSwitch : 34|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ CruiseControlResumeSwitch : 36|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ CruiseControlAccelerateSwitch : 38|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ CruiseControlSetSpeed : 40|8@1+ (1,0) [0|250] "km/h" Vector__XXX
+SG_ PTOGovernorState : 48|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ CruiseControlStates : 53|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ EngineIdleIncrementSwitch : 56|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineIdleDecrementSwitch : 58|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineDiagnosticTestModeSwitch : 60|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineShutdownOverrideSwitch : 62|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2566845729 AMB: 8 Vector__XXX
- SG_ BarometricPressure : 0|8@1+ (0.5,0) [0|125] "kPa" Vector__XXX
- SG_ CabInteriorTemperature : 8|16@1+ (0.03125,-273) [-273|1734.96875] "deg C" Vector__XXX
- SG_ AmbientAirTemperature : 24|16@1+ (0.03125,-273) [-273|1734.96875] "deg C" Vector__XXX
- SG_ EngineIntakeAirTemperature : 40|8@1+ (1,-40) [-40|210] "deg C" Vector__XXX
- SG_ RoadSurfaceTemperature : 48|16@1+ (0.03125,-273) [-273|1734.96875] "deg C" Vector__XXX
+BO_ 2566845729 AMB: 8 ThorebNode
+SG_ BarometricPressure : 0|8@1+ (0.5,0) [0|125] "kPa" Vector__XXX
+SG_ CabInteriorTemperature : 8|16@1+ (0.03125,-273) [-273|1734.96875] "deg C" Vector__XXX
+SG_ AmbientAirTemperature : 24|16@1+ (0.03125,-273) [-273|1734.96875] "deg C" Vector__XXX
+SG_ EngineIntakeAirTemperature : 40|8@1+ (1,-40) [-40|210] "deg C" Vector__XXX
+SG_ RoadSurfaceTemperature : 48|16@1+ (0.03125,-273) [-273|1734.96875] "deg C" Vector__XXX
 
-BO_ 2364577313 HVESSS1: 8 Vector__XXX
- SG_ HVES1HghVoltageBusPosContactStat : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1HghVoltageBusNegContactStat : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1HghVoltageBusDiscnnctFrwrng : 4|4@1+ (1,0) [0|15] "" Vector__XXX
- SG_ HVES1HghVltgBusPreChrgRelyStat : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1CenterOfPackContactorState : 10|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1HiVltgBusActIsolatnTestStat : 12|4@1+ (1,0) [0|15] "" Vector__XXX
- SG_ HVES1HiVltgBusPassIsolatnTestSt : 16|4@1+ (1,0) [0|15] "" Vector__XXX
- SG_ HVES1HVILStatus : 20|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1InertiaSwitchStatus : 22|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1CellBalanceStatus : 28|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1CellBalancingActive : 30|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1InternalChargerStatus : 32|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1HghVoltageBusConnectnStatus : 40|4@1+ (1,0) [0|15] "" Vector__XXX
- SG_ HVES1OperationalStatus : 44|4@1+ (1,0) [0|15] "" Vector__XXX
+BO_ 2364577313 HVESSS1: 8 ThorebNode
+SG_ HVES1HghVoltageBusPosContactStat : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1HghVoltageBusNegContactStat : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1HghVoltageBusDiscnnctFrwrng : 4|4@1+ (1,0) [0|15] "" Vector__XXX
+SG_ HVES1HghVltgBusPreChrgRelyStat : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1CenterOfPackContactorState : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1HiVltgBusActIsolatnTestStat : 12|4@1+ (1,0) [0|15] "" Vector__XXX
+SG_ HVES1HiVltgBusPassIsolatnTestSt : 16|4@1+ (1,0) [0|15] "" Vector__XXX
+SG_ HVES1HVILStatus : 20|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1InertiaSwitchStatus : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1CellBalanceStatus : 28|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1CellBalancingActive : 30|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1InternalChargerStatus : 32|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1HghVoltageBusConnectnStatus : 40|4@1+ (1,0) [0|15] "" Vector__XXX
+SG_ HVES1OperationalStatus : 44|4@1+ (1,0) [0|15] "" Vector__XXX
 
-BO_ 2566900513 PCvi_PortAStatus: 8 Vector__XXX
- SG_ PCvi_bo_PortAHvilFault : 60|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ PCvi_bo_PortAPosChrgCntctrClosed : 59|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ PCvi_bo_PortANegChrgCntctrClosed : 58|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ PCvi_bo_PortALockMotorLocked : 57|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ PCvi_uin_PortAEvseDischrgCrntLim : 9|9@1+ (1,0) [0|511] "A" Vector__XXX
- SG_ PCvi_uin_PortAVoltage_V : 27|12@1+ (0.5,-1024) [-1024|1023.5] "V" Vector__XXX
- SG_ PCvi_uin_PortAChargeCrntSetpoint : 18|9@1+ (1,0) [0|511] "A" Vector__XXX
- SG_ PCvi_uin_PortAJunctionTemp_C : 39|8@1+ (1,-50) [-50|205] "C" Vector__XXX
- SG_ PCvi_uin_PortAEvseChrgCrntLim_a : 0|9@1+ (1,0) [0|511] "A" Vector__XXX
- SG_ PCvi_en_PortAState : 62|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ PCvi_bo_PortAIsolationInhibt : 61|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ PCvi_uin_PortAMeasuredCurrent_a : 47|10@1+ (1,-512) [-512|511] "A" Vector__XXX
+BO_ 2566900513 PCvi_PortAStatus: 8 ThorebNode
+SG_ PCvi_bo_PortAHvilFault : 60|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ PCvi_bo_PortAPosChrgCntctrClosed : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ PCvi_bo_PortANegChrgCntctrClosed : 58|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ PCvi_bo_PortALockMotorLocked : 57|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ PCvi_uin_PortAEvseDischrgCrntLim : 9|9@1+ (1,0) [0|511] "A" Vector__XXX
+SG_ PCvi_uin_PortAVoltage_V : 27|12@1+ (0.5,-1024) [-1024|1023.5] "V" Vector__XXX
+SG_ PCvi_uin_PortAChargeCrntSetpoint : 18|9@1+ (1,0) [0|511] "A" Vector__XXX
+SG_ PCvi_uin_PortAJunctionTemp_C : 39|8@1+ (1,-50) [-50|205] "C" Vector__XXX
+SG_ PCvi_uin_PortAEvseChrgCrntLim_a : 0|9@1+ (1,0) [0|511] "A" Vector__XXX
+SG_ PCvi_en_PortAState : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ PCvi_bo_PortAIsolationInhibt : 61|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ PCvi_uin_PortAMeasuredCurrent_a : 47|10@1+ (1,-512) [-512|511] "A" Vector__XXX
 
-BO_ 2365479471 ASC1_A: 8 Vector__XXX
- SG_ NominalLevelFrontAxle : 0|4@1+ (1,0) [0|15] "" Vector__XXX
- SG_ NominalLevelRearAxle : 4|4@1+ (1,0) [0|15] "" Vector__XXX
- SG_ BelowNominalLevelFrontAxle : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ BelowNominalLevelRearAxle : 10|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ AboveNominalLevelFrontAxle : 12|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ AboveNominalLevelRearAxle : 14|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LoweringControlModeFrontAxle : 16|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LoweringControlModeRearAxle : 18|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LiftingControlModeFrontAxle : 20|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LiftingControlModeRearAxle : 22|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ KneelingInformation : 24|4@1+ (1,0) [0|15] "" Vector__XXX
- SG_ LevelControlMode : 28|4@1+ (1,0) [0|15] "" Vector__XXX
- SG_ SecurityDevice : 32|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ VehicleMotionInhibit : 34|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ DoorRelease : 36|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LiftAxle1Position : 38|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FrontAxleInBumperRange : 40|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RearAxleInBumperRange : 42|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ LiftAxle2Position : 46|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ SuspensionRemoteControl1 : 48|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ SuspensionRemoteControl2 : 50|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ AllowLevelCtrlDuringBrkngStatus : 52|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ SpeedDependantLevelControlStatus : 54|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ SuspensionCtrlRefusalInformation : 56|4@1+ (1,0) [0|15] "" Vector__XXX
- SG_ MemoryLevel : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+BO_ 2365479471 ASC1_A: 8 ThorebNode
+SG_ NominalLevelFrontAxle : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+SG_ NominalLevelRearAxle : 4|4@1+ (1,0) [0|15] "" Vector__XXX
+SG_ BelowNominalLevelFrontAxle : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ BelowNominalLevelRearAxle : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ AboveNominalLevelFrontAxle : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ AboveNominalLevelRearAxle : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LoweringControlModeFrontAxle : 16|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LoweringControlModeRearAxle : 18|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LiftingControlModeFrontAxle : 20|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LiftingControlModeRearAxle : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ KneelingInformation : 24|4@1+ (1,0) [0|15] "" Vector__XXX
+SG_ LevelControlMode : 28|4@1+ (1,0) [0|15] "" Vector__XXX
+SG_ SecurityDevice : 32|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ VehicleMotionInhibit : 34|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ DoorRelease : 36|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LiftAxle1Position : 38|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FrontAxleInBumperRange : 40|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RearAxleInBumperRange : 42|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ LiftAxle2Position : 46|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ SuspensionRemoteControl1 : 48|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ SuspensionRemoteControl2 : 50|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ AllowLevelCtrlDuringBrkngStatus : 52|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ SpeedDependantLevelControlStatus : 54|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ SuspensionCtrlRefusalInformation : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+SG_ MemoryLevel : 60|4@1+ (1,0) [0|15] "" Vector__XXX
 
-BO_ 2364607265 HVESSD9: 8 Vector__XXX
- SG_ HvssHghstCllTmprtrMdlNmr : 0|8@1+ (1,0) [0|250] "count" Vector__XXX
- SG_ HvssHghstCllTmprtrCllNmr : 8|8@1+ (1,0) [0|250] "count" Vector__XXX
- SG_ HvssLwstCllTmprtrMdlNmr : 16|8@1+ (1,0) [0|250] "count" Vector__XXX
- SG_ HvssLwstCllTmprtrCllNmr : 24|8@1+ (1,0) [0|250] "count" Vector__XXX
- SG_ HvessThermalEventDetected : 32|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2364607265 HVESSD9: 8 ThorebNode
+SG_ HvssHghstCllTmprtrMdlNmr : 0|8@1+ (1,0) [0|250] "count" Vector__XXX
+SG_ HvssHghstCllTmprtrCllNmr : 8|8@1+ (1,0) [0|250] "count" Vector__XXX
+SG_ HvssLwstCllTmprtrMdlNmr : 16|8@1+ (1,0) [0|250] "count" Vector__XXX
+SG_ HvssLwstCllTmprtrCllNmr : 24|8@1+ (1,0) [0|250] "count" Vector__XXX
+SG_ HvessThermalEventDetected : 32|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2565866785 ETC2: 8 Vector__XXX
- SG_ TransmissionSelectedGear : 0|8@1+ (1,-125) [-125|125] "" Vector__XXX
- SG_ TransmissionActualGearRatio : 8|16@1+ (0.001,0) [0|64.255] "" Vector__XXX
- SG_ TransmissionCurrentGear : 24|8@1+ (1,-125) [-125|125] "" Vector__XXX
- SG_ TransmissionRequestedRange : 39|16@0+ (1,0) [0|65535] "ASCII" Vector__XXX
- SG_ TransmissionCurrentRange : 55|16@0+ (1,0) [0|65535] "ASCII" Vector__XXX
+BO_ 2565866785 ETC2: 8 ThorebNode
+SG_ TransmissionSelectedGear : 0|8@1+ (1,-125) [-125|125] "" Vector__XXX
+SG_ TransmissionActualGearRatio : 8|16@1+ (0.001,0) [0|64.255] "" Vector__XXX
+SG_ TransmissionCurrentGear : 24|8@1+ (1,-125) [-125|125] "" Vector__XXX
+SG_ TransmissionRequestedRange : 39|16@0+ (1,0) [0|65535] "ASCII" Vector__XXX
+SG_ TransmissionCurrentRange : 55|16@0+ (1,0) [0|65535] "ASCII" Vector__XXX
 
-BO_ 2566719265 DLCC1: 8 Vector__XXX
- SG_ EngineProtectLampCommand : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineAmberWarningLampCommand : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineRedStopLampCommand : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ OBDMalfunctionIndicatorLampCmd : 6|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineBrakeActiveLampCommand : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ ComPrsionBrkEnblSwIndictrLampCmd : 10|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineOilPressureLowLampCommand : 12|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngCoolntTemperatureHighLampCmd : 14|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineCoolantLevelLowLampCommand : 16|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineIdleManagementActvLampCmd : 18|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngAirFilterRestrictionLampCmd : 20|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngFuelFilterRestrictedLampCmd : 22|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngCtrlModule1ReadyForUseLampCmd : 24|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngCtrlModule2ReadyForUseLampCmd : 26|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngCtrlModule3ReadyForUseLampCmd : 28|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineSpeedHighLampCommand : 30|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineSpeedVeryHighLampCommand : 32|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ VehicleAccltnRateLimitLampCmd : 34|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngIdlMangmntPendingEvntLampCmd : 36|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngStopStartAutoStopActvLampCmd : 38|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngStopStrtAutoStrtFailedLampCmd : 40|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineStopStartEnabledLampCmd : 42|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineOilTemperatureHighLampCmd : 44|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineFuelTemperatureHighLampCmd : 46|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngIntercoolerTempHghLampCmd : 48|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ EngineAirShutoffLampCommand : 50|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2566719265 DLCC1: 8 ThorebNode
+SG_ EngineProtectLampCommand : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineAmberWarningLampCommand : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineRedStopLampCommand : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ OBDMalfunctionIndicatorLampCmd : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineBrakeActiveLampCommand : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ ComPrsionBrkEnblSwIndictrLampCmd : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineOilPressureLowLampCommand : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngCoolntTemperatureHighLampCmd : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineCoolantLevelLowLampCommand : 16|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineIdleManagementActvLampCmd : 18|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngAirFilterRestrictionLampCmd : 20|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngFuelFilterRestrictedLampCmd : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngCtrlModule1ReadyForUseLampCmd : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngCtrlModule2ReadyForUseLampCmd : 26|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngCtrlModule3ReadyForUseLampCmd : 28|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineSpeedHighLampCommand : 30|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineSpeedVeryHighLampCommand : 32|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ VehicleAccltnRateLimitLampCmd : 34|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngIdlMangmntPendingEvntLampCmd : 36|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngStopStartAutoStopActvLampCmd : 38|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngStopStrtAutoStrtFailedLampCmd : 40|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineStopStartEnabledLampCmd : 42|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineOilTemperatureHighLampCmd : 44|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineFuelTemperatureHighLampCmd : 46|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngIntercoolerTempHghLampCmd : 48|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ EngineAirShutoffLampCommand : 50|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2566749463 FMS1: 8 Vector__XXX
- SG_ FMS1_Mux M : 0|4@1+ (1,0) [0|0] "" Vector__XXX
- SG_ Coolingairconditioning m0 : 4|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Highbeammainbeam m0 : 8|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Lowbeamdippedbeam m0 : 12|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Turnsignals m0 : 16|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Hazardwarning m0 : 20|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Provisionforthehandicapped m0 : 24|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ ParkingBrake m0 : 28|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Brakefailure m0 : 32|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Hatchopen m0 : 36|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Fuellevel m0 : 40|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Enginecoolanttemperature m0 : 44|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Batterychargingcondition m0 : 48|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Engineoil m0 : 52|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Positionlightssidelights m0 : 56|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Frontfoglight m0 : 60|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ StopRequest m2 : 32|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Electricmotorfailures m4 : 8|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Batterypack m4 : 20|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ HVsystemcaution m4 : 24|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Batterypacktemperature m4 : 28|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Limitedperformanceelectricmtr m4 : 32|3@1+ (1,0) [0|7] "" Vector__XXX
- SG_ Batterypackcooling m4 : 36|3@1+ (1,0) [0|7] "" Vector__XXX
+BO_ 2566749463 FMS1: 8 ThorebNode
+SG_ FMS1_Mux M : 0|4@1+ (1,0) [0|0] "" Vector__XXX
+SG_ Coolingairconditioning m0 : 4|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Highbeammainbeam m0 : 8|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Lowbeamdippedbeam m0 : 12|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Turnsignals m0 : 16|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Hazardwarning m0 : 20|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Provisionforthehandicapped m0 : 24|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ ParkingBrake m0 : 28|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Brakefailure m0 : 32|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Hatchopen m0 : 36|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Fuellevel m0 : 40|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Enginecoolanttemperature m0 : 44|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Batterychargingcondition m0 : 48|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Engineoil m0 : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Positionlightssidelights m0 : 56|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Frontfoglight m0 : 60|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ StopRequest m2 : 32|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Electricmotorfailures m4 : 8|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Batterypack m4 : 20|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ HVsystemcaution m4 : 24|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Batterypacktemperature m4 : 28|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Limitedperformanceelectricmtr m4 : 32|3@1+ (1,0) [0|7] "" Vector__XXX
+SG_ Batterypackcooling m4 : 36|3@1+ (1,0) [0|7] "" Vector__XXX
 
-BO_ 2566843431 VI: 200 Vector__XXX
+BO_ 2566843431 VI: 200 ThorebNode
 
-BO_ 2364552743 HVESSS2: 8 Vector__XXX
- SG_ HVES1DisChrgPowerLmtDTStateChrg : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1DisChrgPwrLmtDTBattryTemp : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1DisChrgPwrLmtDTBattDiagCond : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1DisChrgPwrLmtDTBattCellVltg : 6|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1DisChrgPowerLmtDTBattryCurr : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1DisChrgPwrLmtDTUndefndCause : 10|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1ChrgPowerLimitDTStateChrg : 32|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1ChrgPwrLmtDTBattryTemp : 34|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1ChrgPwrLmtDTBattDiagCondtn : 36|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1ChrgPwrLmtDTBattryCellVltg : 38|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1ChrgPowerLimitDTBattryCurr : 40|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1ChrgPwrLmtDTUndefinedCause : 42|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2364552743 HVESSS2: 8 ThorebNode
+SG_ HVES1DisChrgPowerLmtDTStateChrg : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1DisChrgPwrLmtDTBattryTemp : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1DisChrgPwrLmtDTBattDiagCond : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1DisChrgPwrLmtDTBattCellVltg : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1DisChrgPowerLmtDTBattryCurr : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1DisChrgPwrLmtDTUndefndCause : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1ChrgPowerLimitDTStateChrg : 32|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1ChrgPwrLmtDTBattryTemp : 34|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1ChrgPwrLmtDTBattDiagCondtn : 36|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1ChrgPwrLmtDTBattryCellVltg : 38|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1ChrgPowerLimitDTBattryCurr : 40|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1ChrgPwrLmtDTUndefinedCause : 42|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2364606759 HVESSTS1: 8 Vector__XXX
- SG_ HVES1ThermalMangmntSysSLIInptPwr : 0|16@1+ (0.5,0) [0|32127.5] "W" Vector__XXX
- SG_ HVES1ThrmlMngmtSysHiVltgInptPwr : 16|16@1+ (0.5,0) [0|32127.5] "W" Vector__XXX
- SG_ HVES1ThrmlMangmntSysCmprssorSpd : 32|8@1+ (32,0) [0|8000] "rpm" Vector__XXX
- SG_ HVES1ThermalMangmntSysRelHumidty : 40|8@1+ (0.4,0) [0|100] "%" Vector__XXX
- SG_ HVES1ThermalMangmntSystemHtrStat : 48|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVESSThermalMangmntSysHVILStat : 50|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ HVES1ThermalManagementSystemMode : 52|4@1+ (1,0) [0|15] "" Vector__XXX
- SG_ HVESSThermalMangmntSysCoolntLvl : 56|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2364606759 HVESSTS1: 8 ThorebNode
+SG_ HVES1ThermalMangmntSysSLIInptPwr : 0|16@1+ (0.5,0) [0|32127.5] "W" Vector__XXX
+SG_ HVES1ThrmlMngmtSysHiVltgInptPwr : 16|16@1+ (0.5,0) [0|32127.5] "W" Vector__XXX
+SG_ HVES1ThrmlMangmntSysCmprssorSpd : 32|8@1+ (32,0) [0|8000] "rpm" Vector__XXX
+SG_ HVES1ThermalMangmntSysRelHumidty : 40|8@1+ (0.4,0) [0|100] "%" Vector__XXX
+SG_ HVES1ThermalMangmntSystemHtrStat : 48|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVESSThermalMangmntSysHVILStat : 50|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ HVES1ThermalManagementSystemMode : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+SG_ HVESSThermalMangmntSysCoolntLvl : 56|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2566540583 EVEI: 8 Vector__XXX
- SG_ TotalTripEnergyConsumed : 0|32@1+ (0.1,0) [0|421108121.5] "kWh" Vector__XXX
- SG_ TripDriveEnergyEconomy : 32|16@1+ (0.001953125,0) [0|125.49804688] "kWh/km" Vector__XXX
+BO_ 2566540583 EVEI: 8 ThorebNode
+SG_ TotalTripEnergyConsumed : 0|32@1+ (0.1,0) [0|421108121.5] "kWh" Vector__XXX
+SG_ TripDriveEnergyEconomy : 32|16@1+ (0.001953125,0) [0|125.498046875] "kWh/km" Vector__XXX
 
-BO_ 2365349415 HVESSHIST: 19 Vector__XXX
- SG_ HVES1StateOfHealth : 0|8@1+ (0.4,0) [0|100] "%" Vector__XXX
- SG_ HVES1ContactorOpenUnderLoadCount : 8|16@1+ (1,0) [0|64255] "" Vector__XXX
- SG_ HVES1TotalEnergyThroughput : 24|32@1+ (100,0) [0|201326492] "Watt-hour" Vector__XXX
- SG_ HVES1TotalAccumulatedCharge : 56|32@1+ (100,0) [0|201326492] "Ah" Vector__XXX
- SG_ HVESSTotalLifetimeEnergyInput : 88|32@1+ (1,0) [0|4211081215] "kWh" Vector__XXX
- SG_ HVESSTotalLifetimeEnergyOutput : 120|32@1+ (1,0) [0|4211081215] "kWh" Vector__XXX
+BO_ 2365349415 HVESSHIST: 19 ThorebNode
+SG_ HVES1StateOfHealth : 0|8@1+ (0.4,0) [0|100] "%" Vector__XXX
+SG_ HVES1ContactorOpenUnderLoadCount : 8|16@1+ (1,0) [0|64255] "" Vector__XXX
+SG_ HVES1TotalEnergyThroughput : 24|32@1+ (100,0) [0|421108121500] "Watt-hour" Vector__XXX
+SG_ HVES1TotalAccumulatedCharge : 56|32@1+ (100,0) [0|421108121500] "Ah" Vector__XXX
+SG_ HVESSTotalLifetimeEnergyInput : 88|32@1+ (1,0) [0|4211081215] "kWh" Vector__XXX
+SG_ HVESSTotalLifetimeEnergyOutput : 120|32@1+ (1,0) [0|4211081215] "kWh" Vector__XXX
 
-BO_ 2566766631 TR7: 8 Vector__XXX
- SG_ TypeOfPassengerCount : 0|8@1+ (1,0) [0|255] "" Vector__XXX
- SG_ PatronCount : 8|8@1+ (1,0) [0|250] "" Vector__XXX
- SG_ SilentAlarmStatus : 16|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ VehicleUseStatus : 18|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ TransitRunStatus : 20|2@1+ (1,0) [0|3] "" Vector__XXX
+BO_ 2566766631 TR7: 8 ThorebNode
+SG_ TypeOfPassengerCount : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+SG_ PatronCount : 8|8@1+ (1,0) [0|250] "" Vector__XXX
+SG_ SilentAlarmStatus : 16|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ VehicleUseStatus : 18|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ TransitRunStatus : 20|2@1+ (1,0) [0|3] "" Vector__XXX
 
-BO_ 2566841895 TD: 8 Vector__XXX
- SG_ Seconds : 0|8@1+ (0.25,0) [0|62.5] "s" Vector__XXX
- SG_ Minutes : 8|8@1+ (1,0) [0|250] "min" Vector__XXX
- SG_ Hours : 16|8@1+ (1,0) [0|250] "h" Vector__XXX
- SG_ Month : 24|8@1+ (1,0) [0|250] "month" Vector__XXX
- SG_ Day : 32|8@1+ (0.25,0) [0|62.5] "Days" Vector__XXX
- SG_ Year : 40|8@1+ (1,1985) [1985|2235] "year" Vector__XXX
- SG_ LocalMinuteOffset : 48|8@1+ (1,-125) [-125|125] "min" Vector__XXX
- SG_ LocalHourOffset : 56|8@1+ (1,-125) [-125|125] "h" Vector__XXX
+BO_ 2566841895 TD: 8 ThorebNode
+SG_ Seconds : 0|8@1+ (0.25,0) [0|62.5] "s" Vector__XXX
+SG_ Minutes : 8|8@1+ (1,0) [0|250] "min" Vector__XXX
+SG_ Hours : 16|8@1+ (1,0) [0|250] "h" Vector__XXX
+SG_ Month : 24|8@1+ (1,0) [0|250] "month" Vector__XXX
+SG_ Day : 32|8@1+ (0.25,0) [0|62.5] "Days" Vector__XXX
+SG_ Year : 40|8@1+ (1,1985) [1985|2235] "year" Vector__XXX
+SG_ LocalMinuteOffset : 48|8@1+ (1,-125) [-125|125] "min" Vector__XXX
+SG_ LocalHourOffset : 56|8@1+ (1,-125) [-125|125] "h" Vector__XXX
 
-BO_ 2566842151 VH: 8 Vector__XXX
- SG_ TotalVehicleHours : 0|32@1+ (0.05,0) [0|210554060.75] "h" Vector__XXX
- SG_ TotalPowerTakeoffHours : 32|32@1+ (0.05,0) [0|210554060.75] "h" Vector__XXX
+BO_ 2566842151 VH: 8 ThorebNode
+SG_ TotalVehicleHours : 0|32@1+ (0.05,0) [0|210554060.75] "h" Vector__XXX
+SG_ TotalPowerTakeoffHours : 32|32@1+ (0.05,0) [0|210554060.75] "h" Vector__XXX
 
-BO_ 2566834699 DM1_EBS: 50 Vector__XXX
- SG_ ProtectLamp : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ AmberWarningLamp : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RedStopLamp : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MalfunctionIndicatorLamp : 6|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FlashProtectLamp : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FlashAmberWarningLamp : 10|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FlashRedStopLamp : 12|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FlashMalfunctionIndicatorLamp : 14|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ SuspectParameterNumber : 23|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier : 32|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount : 40|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod : 47|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber2 : 39|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier2 : 64|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount2 : 72|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod2 : 79|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber3 : 71|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier3 : 96|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount3 : 104|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod3 : 111|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber4 : 103|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier4 : 128|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount4 : 136|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod4 : 143|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber5 : 135|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier5 : 160|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount5 : 168|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod5 : 175|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber6 : 167|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier6 : 192|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount6 : 200|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod6 : 207|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber7 : 199|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier7 : 224|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount7 : 232|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod7 : 239|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber8 : 231|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier8 : 256|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount8 : 264|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod8 : 271|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber9 : 263|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier9 : 288|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount9 : 296|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod9 : 303|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber10 : 295|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier10 : 320|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount10 : 328|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod10 : 335|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber11 : 327|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier11 : 352|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount11 : 360|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod11 : 367|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber12 : 359|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier12 : 384|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount12 : 392|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod12 : 399|1@1+ (1,0) [0|1] "" Vector__XXX
+BO_ 2566834699 DM1_EBS: 50 ThorebNode
+SG_ ProtectLamp : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ AmberWarningLamp : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RedStopLamp : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MalfunctionIndicatorLamp : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FlashProtectLamp : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FlashAmberWarningLamp : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FlashRedStopLamp : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FlashMalfunctionIndicatorLamp : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ SuspectParameterNumber : 23|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier : 32|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount : 40|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod : 47|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber2 : 55|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier2 : 64|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount2 : 72|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod2 : 79|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber3 : 87|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier3 : 96|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount3 : 104|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod3 : 111|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber4 : 119|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier4 : 128|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount4 : 136|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod4 : 143|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber5 : 151|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier5 : 160|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount5 : 168|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod5 : 175|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber6 : 183|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier6 : 192|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount6 : 200|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod6 : 207|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber7 : 215|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier7 : 224|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount7 : 232|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod7 : 239|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber8 : 247|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier8 : 256|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount8 : 264|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod8 : 271|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber9 : 279|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier9 : 288|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount9 : 296|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod9 : 303|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber10 : 311|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier10 : 320|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount10 : 328|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod10 : 335|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber11 : 343|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier11 : 352|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount11 : 360|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod11 : 367|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber12 : 375|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier12 : 384|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount12 : 392|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod12 : 399|1@1+ (1,0) [0|1] "" Vector__XXX
 
-BO_ 2566834735 DM1_ECAS: 50 Vector__XXX
- SG_ ProtectLamp : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ AmberWarningLamp : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RedStopLamp : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MalfunctionIndicatorLamp : 6|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FlashProtectLamp : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FlashAmberWarningLamp : 10|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FlashRedStopLamp : 12|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FlashMalfunctionIndicatorLamp : 14|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ SuspectParameterNumber : 23|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier : 32|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount : 40|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod : 47|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber2 : 39|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier2 : 64|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount2 : 72|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod2 : 79|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber3 : 71|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier3 : 96|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount3 : 104|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod3 : 111|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber4 : 103|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier4 : 128|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount4 : 136|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod4 : 143|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber5 : 135|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier5 : 160|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount5 : 168|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod5 : 175|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber6 : 167|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier6 : 192|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount6 : 200|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod6 : 207|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber7 : 199|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier7 : 224|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount7 : 232|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod7 : 239|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber8 : 231|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier8 : 256|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount8 : 264|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod8 : 271|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber9 : 263|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier9 : 288|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount9 : 296|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod9 : 303|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber10 : 295|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier10 : 320|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount10 : 328|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod10 : 335|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber11 : 327|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier11 : 352|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount11 : 360|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod11 : 367|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber12 : 359|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier12 : 384|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount12 : 392|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod12 : 399|1@1+ (1,0) [0|1] "" Vector__XXX
+BO_ 2566834735 DM1_ECAS: 50 ThorebNode
+SG_ ProtectLamp : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ AmberWarningLamp : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RedStopLamp : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MalfunctionIndicatorLamp : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FlashProtectLamp : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FlashAmberWarningLamp : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FlashRedStopLamp : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FlashMalfunctionIndicatorLamp : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ SuspectParameterNumber : 23|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier : 32|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount : 40|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod : 47|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber2 : 55|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier2 : 64|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount2 : 72|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod2 : 79|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber3 : 87|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier3 : 96|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount3 : 104|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod3 : 111|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber4 : 119|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier4 : 128|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount4 : 136|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod4 : 143|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber5 : 151|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier5 : 160|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount5 : 168|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod5 : 175|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber6 : 183|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier6 : 192|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount6 : 200|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod6 : 207|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber7 : 215|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier7 : 224|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount7 : 232|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod7 : 239|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber8 : 247|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier8 : 256|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount8 : 264|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod8 : 271|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber9 : 279|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier9 : 288|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount9 : 296|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod9 : 303|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber10 : 311|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier10 : 320|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount10 : 328|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod10 : 335|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber11 : 343|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier11 : 352|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount11 : 360|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod11 : 367|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber12 : 375|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier12 : 384|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount12 : 392|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod12 : 399|1@1+ (1,0) [0|1] "" Vector__XXX
 
-BO_ 2566834778 DM1_ZF: 50 Vector__XXX
- SG_ ProtectLamp : 0|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ AmberWarningLamp : 2|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ RedStopLamp : 4|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ MalfunctionIndicatorLamp : 6|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FlashProtectLamp : 8|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FlashAmberWarningLamp : 10|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FlashRedStopLamp : 12|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ FlashMalfunctionIndicatorLamp : 14|2@1+ (1,0) [0|3] "" Vector__XXX
- SG_ SuspectParameterNumber : 23|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier : 32|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount : 40|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod : 47|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber2 : 39|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier2 : 64|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount2 : 72|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod2 : 79|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber3 : 71|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier3 : 96|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount3 : 104|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod3 : 111|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber4 : 103|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier4 : 128|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount4 : 136|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod4 : 143|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber5 : 135|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier5 : 160|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount5 : 168|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod5 : 175|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber6 : 167|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier6 : 192|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount6 : 200|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod6 : 207|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber7 : 199|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier7 : 224|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount7 : 232|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod7 : 239|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber8 : 231|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier8 : 256|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount8 : 264|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod8 : 271|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber9 : 263|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier9 : 288|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount9 : 296|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod9 : 303|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber10 : 295|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier10 : 320|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount10 : 328|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod10 : 335|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber11 : 327|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier11 : 352|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount11 : 360|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod11 : 367|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ SuspectParameterNumber12 : 359|19@0+ (1,0) [0|524287] "" Vector__XXX
- SG_ FailureModeIdentifier12 : 384|5@1+ (1,0) [0|31] "" Vector__XXX
- SG_ OccurrenceCount12 : 392|7@1+ (1,0) [0|127] "" Vector__XXX
- SG_ SPNConversionMethod12 : 399|1@1+ (1,0) [0|1] "" Vector__XXX
-
-
+BO_ 2566834778 DM1_ZF: 50 ThorebNode
+SG_ ProtectLamp : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ AmberWarningLamp : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ RedStopLamp : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ MalfunctionIndicatorLamp : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FlashProtectLamp : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FlashAmberWarningLamp : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FlashRedStopLamp : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ FlashMalfunctionIndicatorLamp : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+SG_ SuspectParameterNumber : 23|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier : 32|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount : 40|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod : 47|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber2 : 55|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier2 : 64|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount2 : 72|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod2 : 79|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber3 : 87|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier3 : 96|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount3 : 104|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod3 : 111|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber4 : 119|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier4 : 128|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount4 : 136|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod4 : 143|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber5 : 151|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier5 : 160|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount5 : 168|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod5 : 175|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber6 : 183|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier6 : 192|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount6 : 200|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod6 : 207|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber7 : 215|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier7 : 224|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount7 : 232|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod7 : 239|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber8 : 247|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier8 : 256|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount8 : 264|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod8 : 271|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber9 : 279|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier9 : 288|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount9 : 296|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod9 : 303|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber10 : 311|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier10 : 320|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount10 : 328|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod10 : 335|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber11 : 343|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier11 : 352|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount11 : 360|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod11 : 367|1@1+ (1,0) [0|1] "" Vector__XXX
+SG_ SuspectParameterNumber12 : 375|19@0+ (1,0) [0|524287] "" Vector__XXX
+SG_ FailureModeIdentifier12 : 384|5@1+ (1,0) [0|31] "" Vector__XXX
+SG_ OccurrenceCount12 : 392|7@1+ (1,0) [0|127] "" Vector__XXX
+SG_ SPNConversionMethod12 : 399|1@1+ (1,0) [0|1] "" Vector__XXX
 
 CM_ BO_ 2365524759 "Proprietary B (0Bh) (Dash IO)";
 CM_ BO_ 2365524513 "Proprietary B - Page 1 (0Ah)";
@@ -751,11 +727,12 @@ CM_ BO_ 2566842151 "Vehicle Hours";
 CM_ BO_ 2566834699 "Active Diagnostic Trouble Codes";
 CM_ BO_ 2566834735 "Active Diagnostic Trouble Codes";
 CM_ BO_ 2566834778 "Active Diagnostic Trouble Codes";
+
 BA_DEF_  "BusType" STRING ;
 BA_DEF_  "ProtocolType" STRING ;
 BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG";
 BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
-BA_DEF_ SG_  "GenSigStartValue" FLOAT -3.4e+38 3.4e+38;
+BA_DEF_ SG_  "GenSigStartValue" FLOAT -3.4E+038 3.4E+038;
 BA_DEF_ SG_  "SPN" INT 0 655350;
 BA_DEF_DEF_  "BusType" "CAN";
 BA_DEF_DEF_  "ProtocolType" "J1939";
@@ -763,9 +740,71 @@ BA_DEF_DEF_  "VFrameFormat" "J1939PG";
 BA_DEF_DEF_  "GenMsgCycleTime" 0;
 BA_DEF_DEF_  "GenSigStartValue" 0;
 BA_DEF_DEF_  "SPN" 0;
+
 BA_ "BusType" "CAN";
 BA_ "ProtocolType" "J1939";
+
+BA_ "VFrameFormat" BO_ 2355220689 3;
+BA_ "VFrameFormat" BO_ 2355351761 3;
+BA_ "VFrameFormat" BO_ 2566759713 3;
+BA_ "VFrameFormat" BO_ 2566802977 3;
+BA_ "VFrameFormat" BO_ 2350644759 3;
+BA_ "VFrameFormat" BO_ 2565865739 3;
+BA_ "VFrameFormat" BO_ 2364575777 3;
+BA_ "VFrameFormat" BO_ 2364576033 3;
+BA_ "VFrameFormat" BO_ 2566545953 3;
+BA_ "VFrameFormat" BO_ 2365219607 3;
+BA_ "VFrameFormat" BO_ 2499547671 3;
+BA_ "VFrameFormat" BO_ 2566771745 3;
+BA_ "VFrameFormat" BO_ 2566799393 3;
+BA_ "VFrameFormat" BO_ 2365473047 3;
+BA_ "VFrameFormat" BO_ 2566827553 3;
+BA_ "VFrameFormat" BO_ 2566844705 3;
+BA_ "VFrameFormat" BO_ 2566845729 3;
+BA_ "VFrameFormat" BO_ 2364577313 3;
+BA_ "VFrameFormat" BO_ 2365479471 3;
+BA_ "VFrameFormat" BO_ 2364607265 3;
+BA_ "VFrameFormat" BO_ 2565866785 3;
+BA_ "VFrameFormat" BO_ 2566719265 3;
+BA_ "VFrameFormat" BO_ 2566843431 3;
+BA_ "VFrameFormat" BO_ 2364552743 3;
+BA_ "VFrameFormat" BO_ 2364606759 3;
+BA_ "VFrameFormat" BO_ 2566540583 3;
+BA_ "VFrameFormat" BO_ 2365349415 3;
+BA_ "VFrameFormat" BO_ 2566766631 3;
+BA_ "VFrameFormat" BO_ 2566841895 3;
+BA_ "VFrameFormat" BO_ 2566842151 3;
+BA_ "VFrameFormat" BO_ 2566834699 3;
+BA_ "VFrameFormat" BO_ 2566834735 3;
+BA_ "VFrameFormat" BO_ 2566834778 3;
+
 BA_ "GenMsgCycleTime" BO_ 2365524759 1000;
+BA_ "GenMsgCycleTime" BO_ 2365524513 1000;
+BA_ "GenMsgCycleTime" BO_ 2355220689 10;
+BA_ "GenMsgCycleTime" BO_ 2355351761 100;
+BA_ "GenMsgCycleTime" BO_ 2566759713 100;
+BA_ "GenMsgCycleTime" BO_ 2566802977 100;
+BA_ "GenMsgCycleTime" BO_ 2350644759 20;
+BA_ "GenMsgCycleTime" BO_ 2565865739 100;
+BA_ "GenMsgCycleTime" BO_ 2364575777 20;
+BA_ "GenMsgCycleTime" BO_ 2364576033 20;
+BA_ "GenMsgCycleTime" BO_ 2566545953 1000;
+BA_ "GenMsgCycleTime" BO_ 2365219607 1000;
+BA_ "GenMsgCycleTime" BO_ 2499547671 1000;
+BA_ "GenMsgCycleTime" BO_ 2566771745 10000;
+BA_ "GenMsgCycleTime" BO_ 2566799393 1000;
+BA_ "GenMsgCycleTime" BO_ 2365473047 1000;
+BA_ "GenMsgCycleTime" BO_ 2566827553 1000;
+BA_ "GenMsgCycleTime" BO_ 2566844705 100;
+BA_ "GenMsgCycleTime" BO_ 2566845729 1000;
+BA_ "GenMsgCycleTime" BO_ 2364577313 100;
+BA_ "GenMsgCycleTime" BO_ 2566900513 250;
+BA_ "GenMsgCycleTime" BO_ 2365479471 100;
+BA_ "GenMsgCycleTime" BO_ 2565866785 100;
+BA_ "GenMsgCycleTime" BO_ 2566719265 1000;
+BA_ "GenMsgCycleTime" BO_ 2364552743 100;
+BA_ "GenMsgCycleTime" BO_ 2364606759 100;
+
 BA_ "GenSigStartValue" SG_ 2365524759 LightCheckSwitch 3;
 BA_ "GenSigStartValue" SG_ 2365524759 D1DemistSwitch 3;
 BA_ "GenSigStartValue" SG_ 2365524759 SchoolFlashSwitch 3;
@@ -793,13 +832,8 @@ BA_ "GenSigStartValue" SG_ 2365524759 Switch_3S_8 7;
 BA_ "GenSigStartValue" SG_ 2365524759 Switch_3S_9 7;
 BA_ "GenSigStartValue" SG_ 2365524759 Switch_3S_10 7;
 BA_ "GenSigStartValue" SG_ 2365524759 Switch_2S_9 3;
-BA_ "GenMsgCycleTime" BO_ 2365524513 1000;
-BA_ "VFrameFormat" BO_ 2355220689 3;
-BA_ "GenMsgCycleTime" BO_ 2355220689 10;
-BA_ "VFrameFormat" BO_ 2355351761 3;
-BA_ "GenMsgCycleTime" BO_ 2355351761 100;
-BA_ "VFrameFormat" BO_ 2566759713 3;
-BA_ "GenMsgCycleTime" BO_ 2566759713 100;
+BA_ "GenSigStartValue" SG_ 2566841895 Year 1985;
+
 BA_ "SPN" SG_ 2566759713 LockStatusOfDoor1 3412;
 BA_ "SPN" SG_ 2566759713 OpenStatusOfDoor1 3413;
 BA_ "SPN" SG_ 2566759713 EnableStatusOfDoor1 3414;
@@ -830,13 +864,9 @@ BA_ "SPN" SG_ 2566759713 EnableStatusOfDoor9 3438;
 BA_ "SPN" SG_ 2566759713 LockStatusOfDoor10 3439;
 BA_ "SPN" SG_ 2566759713 OpenStatusOfDoor10 3440;
 BA_ "SPN" SG_ 2566759713 EnableStatusOfDoor10 3441;
-BA_ "VFrameFormat" BO_ 2566802977 3;
-BA_ "GenMsgCycleTime" BO_ 2566802977 100;
 BA_ "SPN" SG_ 2566802977 PositionOfDoors 1821;
 BA_ "SPN" SG_ 2566802977 RampWheelChairLiftPosition 1820;
 BA_ "SPN" SG_ 2566802977 Status2OfDoors 3411;
-BA_ "VFrameFormat" BO_ 2350644759 3;
-BA_ "GenMsgCycleTime" BO_ 2350644759 20;
 BA_ "SPN" SG_ 2350644759 HVES1HighVoltageBusConnectCmd 8123;
 BA_ "SPN" SG_ 2350644759 HVES1PowerDownCommand 8124;
 BA_ "SPN" SG_ 2350644759 HVES1HghVltgBusActIsolatnTestCmd 8125;
@@ -849,8 +879,6 @@ BA_ "SPN" SG_ 2350644759 HVES1HiVltgBusLoSdeResistCnnctRq 8434;
 BA_ "SPN" SG_ 2350644759 HVESSThermalMangmntMaintenRq 20878;
 BA_ "SPN" SG_ 2350644759 HVESSControl1Counter 13027;
 BA_ "SPN" SG_ 2350644759 HVESSControl1CRC 13028;
-BA_ "VFrameFormat" BO_ 2565865739 3;
-BA_ "GenMsgCycleTime" BO_ 2565865739 100;
 BA_ "SPN" SG_ 2565865739 ASREngineControlActive 561;
 BA_ "SPN" SG_ 2565865739 ASRBrakeControlActive 562;
 BA_ "SPN" SG_ 2565865739 AntiLockBrakingActive 563;
@@ -874,27 +902,17 @@ BA_ "SPN" SG_ 2565865739 RailroadModeSwitch 7941;
 BA_ "SPN" SG_ 2565865739 HaltBrakeSwitch 2911;
 BA_ "SPN" SG_ 2565865739 TrailerABSStatus 1836;
 BA_ "SPN" SG_ 2565865739 TractorMntdTrailerABSWarningSig 1792;
-BA_ "VFrameFormat" BO_ 2364575777 3;
-BA_ "GenMsgCycleTime" BO_ 2364575777 20;
 BA_ "SPN" SG_ 2364575777 HVES1AvailableDischargePower 5917;
 BA_ "SPN" SG_ 2364575777 HVES1AvailableChargePower 5918;
 BA_ "SPN" SG_ 2364575777 HVES1VoltageLevel 5919;
 BA_ "SPN" SG_ 2364575777 HVES1Current 5920;
-BA_ "VFrameFormat" BO_ 2364576033 3;
-BA_ "GenMsgCycleTime" BO_ 2364576033 20;
 BA_ "SPN" SG_ 2364576033 HVES1FastUpdateStateOfCharge 5921;
 BA_ "SPN" SG_ 2364576033 HVES1HighestCellVoltage 5922;
 BA_ "SPN" SG_ 2364576033 HVES1LowestCellVoltage 5923;
 BA_ "SPN" SG_ 2364576033 HVES1CellVoltageDiffStatus 5924;
-BA_ "VFrameFormat" BO_ 2566545953 3;
-BA_ "GenMsgCycleTime" BO_ 2566545953 1000;
 BA_ "SPN" SG_ 2566545953 TractorHazardLights 20800;
-BA_ "VFrameFormat" BO_ 2365219607 3;
-BA_ "GenMsgCycleTime" BO_ 2365219607 1000;
 BA_ "SPN" SG_ 2365219607 LightingData2RequestCommand 20798;
 BA_ "SPN" SG_ 2365219607 TractorHazardLightsCommand 20799;
-BA_ "VFrameFormat" BO_ 2499547671 3;
-BA_ "GenMsgCycleTime" BO_ 2499547671 1000;
 BA_ "SPN" SG_ 2499547671 CabDoorsLockActuationCommand 7727;
 BA_ "SPN" SG_ 2499547671 RemoteCabDoorLockRequest 7728;
 BA_ "SPN" SG_ 2499547671 LeftFrontWindowPositionCommand 7729;
@@ -915,8 +933,6 @@ BA_ "SPN" SG_ 2499547671 MirrorLeft1HeatCommand 7741;
 BA_ "SPN" SG_ 2499547671 MirrorRight1HeatCommand 7742;
 BA_ "SPN" SG_ 2499547671 MirrorLeft2HeatCommand 7743;
 BA_ "SPN" SG_ 2499547671 MirrorRight2HeatCommand 7744;
-BA_ "VFrameFormat" BO_ 2566771745 3;
-BA_ "GenMsgCycleTime" BO_ 2566771745 10000;
 BA_ "SPN" SG_ 2566771745 TransferCaseSelectorSwitch 2796;
 BA_ "SPN" SG_ 2566771745 AfttreatmentSCRDosingModeCommand 9175;
 BA_ "SPN" SG_ 2566771745 MomentaryOperatorKeySwitch 9842;
@@ -935,8 +951,6 @@ BA_ "SPN" SG_ 2566771745 EngineAirShutoffManualSwitch 13364;
 BA_ "SPN" SG_ 2566771745 OperatorKeySwitchService 21126;
 BA_ "SPN" SG_ 2566771745 OperatorKeySwitchOff 21127;
 BA_ "SPN" SG_ 2566771745 RemoteKeyFobFunctionRequested 21139;
-BA_ "VFrameFormat" BO_ 2566799393 3;
-BA_ "GenMsgCycleTime" BO_ 2566799393 1000;
 BA_ "SPN" SG_ 2566799393 RunningLight 2404;
 BA_ "SPN" SG_ 2566799393 AlternateBeamHeadLightData 2352;
 BA_ "SPN" SG_ 2566799393 LowBeamHeadLightData 2350;
@@ -968,8 +982,6 @@ BA_ "SPN" SG_ 2566799393 ImplementLeftForwardWorkLight 2598;
 BA_ "SPN" SG_ 2566799393 ImplementRightForwardWorkLight 2402;
 BA_ "SPN" SG_ 2566799393 ImplementLeftFacingWorkLight 2400;
 BA_ "SPN" SG_ 2566799393 ImplementRearWorkLight 2394;
-BA_ "VFrameFormat" BO_ 2365473047 3;
-BA_ "GenMsgCycleTime" BO_ 2365473047 1000;
 BA_ "SPN" SG_ 2365473047 RunningLightCommand 2403;
 BA_ "SPN" SG_ 2365473047 AlternateBeamHeadLightCommand 2351;
 BA_ "SPN" SG_ 2365473047 LowBeamHeadLightCommand 2349;
@@ -1002,8 +1014,6 @@ BA_ "SPN" SG_ 2365473047 LightingDataRequestCommand 2393;
 BA_ "SPN" SG_ 2365473047 ImplementRightFrwdWorkLightCmd 2401;
 BA_ "SPN" SG_ 2365473047 ImplementLeftFacingWorkLightCmd 2399;
 BA_ "SPN" SG_ 2365473047 ImplementRearWorkLightCommand 2405;
-BA_ "VFrameFormat" BO_ 2566827553 3;
-BA_ "GenMsgCycleTime" BO_ 2566827553 1000;
 BA_ "SPN" SG_ 2566827553 PneumaticSupplyPressure 46;
 BA_ "SPN" SG_ 2566827553 ParkingAndOrTrailerAirPressure 1086;
 BA_ "SPN" SG_ 2566827553 ServiceBrakeCircuit1AirPressure 1087;
@@ -1012,8 +1022,6 @@ BA_ "SPN" SG_ 2566827553 AuxiliaryEquipmentSupplyPressure 1089;
 BA_ "SPN" SG_ 2566827553 AirSuspensionSupplyPressure 1090;
 BA_ "SPN" SG_ 2566827553 AirCompressorStatus 1351;
 BA_ "SPN" SG_ 2566827553 PwrtrainCircuitAirSupplyPressure 6305;
-BA_ "VFrameFormat" BO_ 2566844705 3;
-BA_ "GenMsgCycleTime" BO_ 2566844705 100;
 BA_ "SPN" SG_ 2566844705 TwoSpeedAxleSwitch 69;
 BA_ "SPN" SG_ 2566844705 ParkingBrakeSwitch 70;
 BA_ "SPN" SG_ 2566844705 CruiseControlPauseSwitch 1633;
@@ -1034,15 +1042,11 @@ BA_ "SPN" SG_ 2566844705 EngineIdleIncrementSwitch 968;
 BA_ "SPN" SG_ 2566844705 EngineIdleDecrementSwitch 967;
 BA_ "SPN" SG_ 2566844705 EngineDiagnosticTestModeSwitch 966;
 BA_ "SPN" SG_ 2566844705 EngineShutdownOverrideSwitch 1237;
-BA_ "VFrameFormat" BO_ 2566845729 3;
-BA_ "GenMsgCycleTime" BO_ 2566845729 1000;
 BA_ "SPN" SG_ 2566845729 BarometricPressure 108;
 BA_ "SPN" SG_ 2566845729 CabInteriorTemperature 170;
 BA_ "SPN" SG_ 2566845729 AmbientAirTemperature 171;
 BA_ "SPN" SG_ 2566845729 EngineIntakeAirTemperature 172;
 BA_ "SPN" SG_ 2566845729 RoadSurfaceTemperature 79;
-BA_ "VFrameFormat" BO_ 2364577313 3;
-BA_ "GenMsgCycleTime" BO_ 2364577313 100;
 BA_ "SPN" SG_ 2364577313 HVES1HghVoltageBusPosContactStat 8091;
 BA_ "SPN" SG_ 2364577313 HVES1HghVoltageBusNegContactStat 8092;
 BA_ "SPN" SG_ 2364577313 HVES1HghVoltageBusDiscnnctFrwrng 8093;
@@ -1057,9 +1061,6 @@ BA_ "SPN" SG_ 2364577313 HVES1CellBalancingActive 8102;
 BA_ "SPN" SG_ 2364577313 HVES1InternalChargerStatus 8207;
 BA_ "SPN" SG_ 2364577313 HVES1HghVoltageBusConnectnStatus 8413;
 BA_ "SPN" SG_ 2364577313 HVES1OperationalStatus 8414;
-BA_ "GenMsgCycleTime" BO_ 2566900513 250;
-BA_ "VFrameFormat" BO_ 2365479471 3;
-BA_ "GenMsgCycleTime" BO_ 2365479471 100;
 BA_ "SPN" SG_ 2365479471 NominalLevelFrontAxle 1734;
 BA_ "SPN" SG_ 2365479471 NominalLevelRearAxle 1733;
 BA_ "SPN" SG_ 2365479471 BelowNominalLevelFrontAxle 1738;
@@ -1085,21 +1086,16 @@ BA_ "SPN" SG_ 2365479471 AllowLevelCtrlDuringBrkngStatus 5294;
 BA_ "SPN" SG_ 2365479471 SpeedDependantLevelControlStatus 5296;
 BA_ "SPN" SG_ 2365479471 SuspensionCtrlRefusalInformation 1827;
 BA_ "SPN" SG_ 2365479471 MemoryLevel 5432;
-BA_ "VFrameFormat" BO_ 2364607265 3;
 BA_ "SPN" SG_ 2364607265 HvssHghstCllTmprtrMdlNmr 8241;
 BA_ "SPN" SG_ 2364607265 HvssHghstCllTmprtrCllNmr 8242;
 BA_ "SPN" SG_ 2364607265 HvssLwstCllTmprtrMdlNmr 8243;
 BA_ "SPN" SG_ 2364607265 HvssLwstCllTmprtrCllNmr 8244;
 BA_ "SPN" SG_ 2364607265 HvessThermalEventDetected 21287;
-BA_ "VFrameFormat" BO_ 2565866785 3;
-BA_ "GenMsgCycleTime" BO_ 2565866785 100;
 BA_ "SPN" SG_ 2565866785 TransmissionSelectedGear 524;
 BA_ "SPN" SG_ 2565866785 TransmissionActualGearRatio 526;
 BA_ "SPN" SG_ 2565866785 TransmissionCurrentGear 523;
 BA_ "SPN" SG_ 2565866785 TransmissionRequestedRange 162;
 BA_ "SPN" SG_ 2565866785 TransmissionCurrentRange 163;
-BA_ "VFrameFormat" BO_ 2566719265 3;
-BA_ "GenMsgCycleTime" BO_ 2566719265 1000;
 BA_ "SPN" SG_ 2566719265 EngineProtectLampCommand 5077;
 BA_ "SPN" SG_ 2566719265 EngineAmberWarningLampCommand 5078;
 BA_ "SPN" SG_ 2566719265 EngineRedStopLampCommand 5079;
@@ -1126,9 +1122,6 @@ BA_ "SPN" SG_ 2566719265 EngineOilTemperatureHighLampCmd 13105;
 BA_ "SPN" SG_ 2566719265 EngineFuelTemperatureHighLampCmd 13106;
 BA_ "SPN" SG_ 2566719265 EngIntercoolerTempHghLampCmd 13107;
 BA_ "SPN" SG_ 2566719265 EngineAirShutoffLampCommand 13379;
-BA_ "VFrameFormat" BO_ 2566843431 3;
-BA_ "VFrameFormat" BO_ 2364552743 3;
-BA_ "GenMsgCycleTime" BO_ 2364552743 100;
 BA_ "SPN" SG_ 2364552743 HVES1DisChrgPowerLmtDTStateChrg 8103;
 BA_ "SPN" SG_ 2364552743 HVES1DisChrgPwrLmtDTBattryTemp 8104;
 BA_ "SPN" SG_ 2364552743 HVES1DisChrgPwrLmtDTBattDiagCond 8105;
@@ -1141,8 +1134,6 @@ BA_ "SPN" SG_ 2364552743 HVES1ChrgPwrLmtDTBattDiagCondtn 8111;
 BA_ "SPN" SG_ 2364552743 HVES1ChrgPwrLmtDTBattryCellVltg 8112;
 BA_ "SPN" SG_ 2364552743 HVES1ChrgPowerLimitDTBattryCurr 8113;
 BA_ "SPN" SG_ 2364552743 HVES1ChrgPwrLmtDTUndefinedCause 8114;
-BA_ "VFrameFormat" BO_ 2364606759 3;
-BA_ "GenMsgCycleTime" BO_ 2364606759 100;
 BA_ "SPN" SG_ 2364606759 HVES1ThermalMangmntSysSLIInptPwr 8230;
 BA_ "SPN" SG_ 2364606759 HVES1ThrmlMngmtSysHiVltgInptPwr 8231;
 BA_ "SPN" SG_ 2364606759 HVES1ThrmlMangmntSysCmprssorSpd 8232;
@@ -1151,36 +1142,29 @@ BA_ "SPN" SG_ 2364606759 HVES1ThermalMangmntSystemHtrStat 8234;
 BA_ "SPN" SG_ 2364606759 HVESSThermalMangmntSysHVILStat 12813;
 BA_ "SPN" SG_ 2364606759 HVES1ThermalManagementSystemMode 8235;
 BA_ "SPN" SG_ 2364606759 HVESSThermalMangmntSysCoolntLvl 12897;
-BA_ "VFrameFormat" BO_ 2566540583 3;
 BA_ "SPN" SG_ 2566540583 TotalTripEnergyConsumed 20876;
 BA_ "SPN" SG_ 2566540583 TripDriveEnergyEconomy 20875;
-BA_ "VFrameFormat" BO_ 2365349415 3;
 BA_ "SPN" SG_ 2365349415 HVES1StateOfHealth 8121;
 BA_ "SPN" SG_ 2365349415 HVES1ContactorOpenUnderLoadCount 8122;
 BA_ "SPN" SG_ 2365349415 HVES1TotalEnergyThroughput 8211;
 BA_ "SPN" SG_ 2365349415 HVES1TotalAccumulatedCharge 8212;
 BA_ "SPN" SG_ 2365349415 HVESSTotalLifetimeEnergyInput 13365;
 BA_ "SPN" SG_ 2365349415 HVESSTotalLifetimeEnergyOutput 13366;
-BA_ "VFrameFormat" BO_ 2566766631 3;
 BA_ "SPN" SG_ 2566766631 TypeOfPassengerCount 3043;
 BA_ "SPN" SG_ 2566766631 PatronCount 3047;
 BA_ "SPN" SG_ 2566766631 SilentAlarmStatus 3044;
 BA_ "SPN" SG_ 2566766631 VehicleUseStatus 3045;
 BA_ "SPN" SG_ 2566766631 TransitRunStatus 3046;
-BA_ "VFrameFormat" BO_ 2566841895 3;
 BA_ "SPN" SG_ 2566841895 Seconds 959;
 BA_ "SPN" SG_ 2566841895 Minutes 960;
 BA_ "SPN" SG_ 2566841895 Hours 961;
 BA_ "SPN" SG_ 2566841895 Month 963;
 BA_ "SPN" SG_ 2566841895 Day 962;
-BA_ "GenSigStartValue" SG_ 2566841895 Year 1985;
 BA_ "SPN" SG_ 2566841895 Year 964;
 BA_ "SPN" SG_ 2566841895 LocalMinuteOffset 1601;
 BA_ "SPN" SG_ 2566841895 LocalHourOffset 1602;
-BA_ "VFrameFormat" BO_ 2566842151 3;
 BA_ "SPN" SG_ 2566842151 TotalVehicleHours 246;
 BA_ "SPN" SG_ 2566842151 TotalPowerTakeoffHours 248;
-BA_ "VFrameFormat" BO_ 2566834699 3;
 BA_ "SPN" SG_ 2566834699 ProtectLamp 987;
 BA_ "SPN" SG_ 2566834699 AmberWarningLamp 624;
 BA_ "SPN" SG_ 2566834699 RedStopLamp 623;
@@ -1237,7 +1221,6 @@ BA_ "SPN" SG_ 2566834699 SuspectParameterNumber12 1214;
 BA_ "SPN" SG_ 2566834699 FailureModeIdentifier12 1215;
 BA_ "SPN" SG_ 2566834699 OccurrenceCount12 1216;
 BA_ "SPN" SG_ 2566834699 SPNConversionMethod12 1706;
-BA_ "VFrameFormat" BO_ 2566834735 3;
 BA_ "SPN" SG_ 2566834735 ProtectLamp 987;
 BA_ "SPN" SG_ 2566834735 AmberWarningLamp 624;
 BA_ "SPN" SG_ 2566834735 RedStopLamp 623;
@@ -1294,7 +1277,6 @@ BA_ "SPN" SG_ 2566834735 SuspectParameterNumber12 1214;
 BA_ "SPN" SG_ 2566834735 FailureModeIdentifier12 1215;
 BA_ "SPN" SG_ 2566834735 OccurrenceCount12 1216;
 BA_ "SPN" SG_ 2566834735 SPNConversionMethod12 1706;
-BA_ "VFrameFormat" BO_ 2566834778 3;
 BA_ "SPN" SG_ 2566834778 ProtectLamp 987;
 BA_ "SPN" SG_ 2566834778 AmberWarningLamp 624;
 BA_ "SPN" SG_ 2566834778 RedStopLamp 623;
@@ -1351,6 +1333,8 @@ BA_ "SPN" SG_ 2566834778 SuspectParameterNumber12 1214;
 BA_ "SPN" SG_ 2566834778 FailureModeIdentifier12 1215;
 BA_ "SPN" SG_ 2566834778 OccurrenceCount12 1216;
 BA_ "SPN" SG_ 2566834778 SPNConversionMethod12 1706;
+
+VAL_ 2566749463 FMS1_Mux 0 "FMS1_Mux_0" 2 "FMS1_Mux_2" 4 "FMS1_Mux_4" ;
 VAL_ 2365524759 LightCheckSwitch 0 "Off" 1 "On" 2 "Error" 3 "Not avaliable" ;
 VAL_ 2365524759 D1DemistSwitch 0 "Off" 1 "On" 2 "Error" 3 "Not avaliable" ;
 VAL_ 2365524759 SchoolFlashSwitch 0 "Off" 1 "On" 2 "Error" 3 "Not avaliable" ;
@@ -1650,7 +1634,6 @@ VAL_ 2566719265 EngineOilTemperatureHighLampCmd 0 "Lamp Off" 1 "Lamp On" 2 "Rese
 VAL_ 2566719265 EngineFuelTemperatureHighLampCmd 0 "Lamp Off" 1 "Lamp On" 2 "Reserved" 3 "Not available" ;
 VAL_ 2566719265 EngIntercoolerTempHghLampCmd 0 "Lamp Off" 1 "Lamp On" 2 "Reserved" 3 "Not available" ;
 VAL_ 2566719265 EngineAirShutoffLampCommand 0 "Lamp Off" 1 "Lamp On" 2 "Reserved" 3 "Not available" ;
-VAL_ 2566749463 FMS1_Mux 0 "FMS1_Mux_0" 2 "FMS1_Mux_2" 4 "FMS1_Mux_4" ;
 VAL_ 2566749463 Coolingairconditioning 0 "Off" 1 "Condition Red" 2 "Condition Yellow" 3 "Condition Info" 15 "Not Avaliable" ;
 VAL_ 2566749463 Highbeammainbeam 0 "Off" 1 "Condition Red" 2 "Condition Yellow" 3 "Condition Info" 15 "Not Avaliable" ;
 VAL_ 2566749463 Lowbeamdippedbeam 0 "Off" 1 "Condition Red" 2 "Condition Yellow" 3 "Condition Info" 15 "Not Avaliable" ;
@@ -1753,4 +1736,3 @@ VAL_ 2566834778 SPNConversionMethod9 0 "Convert SPN per Version 4" 1 "Convert SP
 VAL_ 2566834778 SPNConversionMethod10 0 "Convert SPN per Version 4" 1 "Convert SPN per Version 1, 2 or 3" ;
 VAL_ 2566834778 SPNConversionMethod11 0 "Convert SPN per Version 4" 1 "Convert SPN per Version 1, 2 or 3" ;
 VAL_ 2566834778 SPNConversionMethod12 0 "Convert SPN per Version 4" 1 "Convert SPN per Version 1, 2 or 3" ;
-
